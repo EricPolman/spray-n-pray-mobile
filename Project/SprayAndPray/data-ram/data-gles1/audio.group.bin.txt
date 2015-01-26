@@ -1,0 +1,51 @@
+ResGroupResources:
+	CIwSoundData (0xd5610dab)
+		"bgm_ingame" (0xc59d6c4b)
+		Size: 680854
+	CIwSoundData (0xd5610dab)
+		"bgm_menu" (0xeacc1fcf)
+		Size: 1041430
+	CIwSoundData (0xd5610dab)
+		"tank_shoot" (0xc47554ff)
+		Size: 87988
+	CIwSoundData (0xd5610dab)
+		"enemy_hit" (0xd13e52c7)
+		Size: 33110
+	CIwSoundData (0xd5610dab)
+		"enemy_dead" (0xf9066710)
+		Size: 36886
+	CIwSoundData (0xd5610dab)
+		"tank_hit" (0xbcb65897)
+		Size: 35798
+	ResList 'CIwSoundData' pos:36 size:1916076
+
+	CIwSoundGroup (0x81c24cbe)
+		"music" (0xff58e86)
+		Size: 18
+	CIwSoundGroup (0x81c24cbe)
+		"effects" (0x57d69fe5)
+		Size: 18
+	ResList 'CIwSoundGroup' pos:1916112 size:46
+
+	CIwSoundSpec (0xd569853c)
+		"bgm_ingame" (0xc59d6c4b)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"bgm_menu" (0xeacc1fcf)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"tank_shoot" (0xc47554ff)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"enemy_hit" (0xd13e52c7)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"enemy_dead" (0xf9066710)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"tank_hit" (0xbcb65897)
+		Size: 30
+	ResList 'CIwSoundSpec' pos:1916158 size:190
+
+ResGroupResources: Wrote 1916316 bytes to CIwResGroup "audio"
+

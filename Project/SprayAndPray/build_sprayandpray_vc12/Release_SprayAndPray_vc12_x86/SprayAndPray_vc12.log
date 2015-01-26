@@ -1,0 +1,110 @@
+﻿Build started 21-1-2015 21:37:34.
+     1>Project "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Performing Custom Build Tools
+         msg: option 'default-buildenv' overridden by command line
+         C:\Program Files\Marmalade\7.4\s3e\makefile_builder\mkb.py d:/Git/Year2/fga2.gt2/SprayAndPray/SprayAndPray.mkb --buildenv=VC12 --fake-vc-call --default-buildenv=vc12 --msvc-project
+         Building project: d:/Git/Year2/fga2.gt2/SprayAndPray/SprayAndPray.mkb
+     1>d:/Git/Year2/fga2.gt2/SprayAndPray/SprayAndPray.mkb(65): warning : filename case does not match the filesystem: d:/git/year2/fga2.gt2/sprayandpray/SoundEngine.mkf
+         Done, with 1 warnings.
+         done
+       ClCompile:
+         C:\Program Files\Marmalade\7.4\s3e\bin\CL.exe /c /I"c:/program files/marmalade/7.4/modules/iwutil/h" /I"c:/program files/marmalade/7.4/modules/third_party/libjpeg/h" /I"c:/program files/marmalade/7.4/modules/third_party/zlib/h" /I"c:/program files/marmalade/7.4/modules/third_party/libpng/h" /I"c:/program files/marmalade/7.4/modules/iw2dscenegraphcore/h" /I"c:/program files/marmalade/7.4/modules/iw2dscenegraph/h" /I"c:/program files/marmalade/7.4/modules/iw2d/h" /I"c:/program files/marmalade/7.4/modules/iwgx/h" /I"c:/program files/marmalade/7.4/modules/iwgl/h" /I"c:/program files/marmalade/7.4/modules/iwgeom/h" /I"c:/program files/marmalade/7.4/modules/iwresmanager/h" /I"c:/program files/marmalade/7.4/extensions/pvrtextool/h" /I"c:/program files/marmalade/7.4/modules/iwgxfont/h" /I"c:/program files/marmalade/7.4/modules/third_party/tiniconv/source" /I"c:/program files/marmalade/7.4/modules/iwnui/h" /I"c:/program files/marmalade/7.4/extensions/s3enui/h" /I"c:/program files/marmalade/7.4/modules/iwui/h" /I"c:/program files/marmalade/7.4/modules/iwtween/h" /Id:/git/year2/fga2.gt2/sprayandpray/SoundEngine/h /Id:/git/year2/fga2.gt2/sprayandpray/SoundEngine/source /I"c:/program files/marmalade/7.4/s3e/h" /I"c:/program files/marmalade/7.4/s3e/h/ext" /I"c:/program files/marmalade/7.4/s3e/h/std" /I"c:/program files/marmalade/7.4/s3e/h/std/c++" /I"c:/program files/marmalade/7.4/s3e/h/ext_legacy" /I"c:/program files/marmalade/7.4/s3e/h/legacy" /I. /Zi /nologo /W3 /WX- /MP /O2 /Oi /Oy- /X /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release_SprayAndPray_vc12_x86\\" /Fd"Release_SprayAndPray_vc12_x86\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /S3Eproject /J /FI"d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\temp_defines_release.h" ..\AudioManager.cpp ..\Background.cpp ..\Bullet.cpp ..\Button.cpp ..\CollisionManager.cpp ..\Enemy.cpp ..\Game.cpp ..\GameSprite.cpp ..\GameView.cpp ..\GuiElement.cpp ..\ImageManager.cpp ..\Input.cpp "c:\program files\marmalade\7.4\modules\iw2dscenegraph\source\Iw2DSceneGraph.cpp" "c:\program files\marmalade\7.4\modules\iw2dscenegraphcore\source\Iw2DSceneGraphCore.cpp" ..\SoundEngine\source\IwResHandlerWAV.cpp ..\SoundEngine\source\IwSoundADPCM.cpp ..\SoundEngine\source\IwSoundData.cpp ..\SoundEngine\source\IwSoundGroup.cpp ..\SoundEngine\source\IwSoundInst.cpp ..\SoundEngine\source\IwSoundManager.cpp ..\SoundEngine\source\IwSoundPCM.cpp ..\SoundEngine\source\IwSoundParams.cpp ..\SoundEngine\source\IwSoundSpec.cpp "c:\program files\marmalade\7.4\modules\iwtween\source\IwTween.cpp" ..\Menu.cpp "c:\program files\marmalade\7.4\extensions\pvrtextool\interface\PVRTexTool_interface.cpp" ..\Player.cpp ..\SprayAndPray.cpp ..\Sprite.cpp ..\Trackpad.cpp ..\View.cpp ..\definitions.cpp
+         AudioManager.cpp
+         Background.cpp
+         Bullet.cpp
+         Button.cpp
+         CollisionManager.cpp
+         Enemy.cpp
+         Game.cpp
+         GameSprite.cpp
+     1>..\Enemy.cpp(35): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\Button.cpp(45): warning C4244: 'argument' : conversion from 'int32' to 'float', possible loss of data
+         GameView.cpp
+     1>..\Game.cpp(49): warning C4244: '=' : conversion from 'uint32' to 'float', possible loss of data
+     1>..\Game.cpp(50): warning C4244: '=' : conversion from 'uint32' to 'float', possible loss of data
+     1>..\Game.cpp(89): warning C4244: '=' : conversion from 'uint32' to 'float', possible loss of data
+     1>..\Game.cpp(90): warning C4244: '=' : conversion from 'uint32' to 'float', possible loss of data
+         GuiElement.cpp
+         ImageManager.cpp
+         Input.cpp
+         Iw2DSceneGraph.cpp
+         Iw2DSceneGraphCore.cpp
+         IwResHandlerWAV.cpp
+         IwSoundADPCM.cpp
+         IwSoundData.cpp
+         IwSoundGroup.cpp
+         IwSoundInst.cpp
+         IwSoundManager.cpp
+         IwSoundPCM.cpp
+         IwSoundParams.cpp
+         IwSoundSpec.cpp
+         IwTween.cpp
+         Menu.cpp
+         PVRTexTool_interface.cpp
+         Player.cpp
+         SprayAndPray.cpp
+         Sprite.cpp
+         Trackpad.cpp
+         View.cpp
+         definitions.cpp
+     1>..\Player.cpp(54): warning C4244: 'argument' : conversion from 'int32' to 'float', possible loss of data
+     1>..\Player.cpp(61): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\Player.cpp(63): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\View.cpp(32): warning C4244: 'initializing' : conversion from 'uint32' to 'float', possible loss of data
+     1>..\View.cpp(33): warning C4244: 'initializing' : conversion from 'uint32' to 'float', possible loss of data
+     1>..\Trackpad.cpp(51): warning C4244: 'argument' : conversion from 'int32' to 'float', possible loss of data
+       Link:
+         C:\Program Files\Marmalade\7.4\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release_SprayAndPray_vc12_x86\SprayAndPray.s86" /INCREMENTAL:NO /NOLOGO /LIBPATH:"c:/program files/marmalade/7.4/modules/iwutil/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/third_party/libjpeg/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/third_party/zlib/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/third_party/libpng/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iw2d/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgx/atitools" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgx/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgl/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgeom/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwresmanager/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgxfont/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/third_party/tiniconv/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwnui/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwui/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/extensions/s3enui/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/s3e/lib/x86" vc6_compat.lib iwutil.lib jpeg.lib z.lib png.lib iw2d.lib ATI_Compress_MT_VC7.lib iwgx.lib iwgl.lib iwgeom.lib iwresmanager.lib iwgxfont_ttf.lib tiniconv.lib iwnui.lib iwui.lib s3eNUI_iwui.lib s3e_cpp.lib s3e.lib s3e_api_iwgl.lib /NODEFAULTLIB:libcmt /MANIFEST:NO /PDB:"Release_SprayAndPray_vc12_x86\SprayAndPray.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"DllEntryPoint" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release_SprayAndPray_vc12_x86\SprayAndPray.lib" /MACHINE:X86  /include:_IwMain /include:_raise /include:_DllEntryPoint@12 /force:multiple /DLL Release_SprayAndPray_vc12_x86\AudioManager.obj
+         Release_SprayAndPray_vc12_x86\Background.obj
+         Release_SprayAndPray_vc12_x86\Bullet.obj
+         Release_SprayAndPray_vc12_x86\Button.obj
+         Release_SprayAndPray_vc12_x86\CollisionManager.obj
+         Release_SprayAndPray_vc12_x86\Enemy.obj
+         Release_SprayAndPray_vc12_x86\Game.obj
+         Release_SprayAndPray_vc12_x86\GameSprite.obj
+         Release_SprayAndPray_vc12_x86\GameView.obj
+         Release_SprayAndPray_vc12_x86\GuiElement.obj
+         Release_SprayAndPray_vc12_x86\ImageManager.obj
+         Release_SprayAndPray_vc12_x86\Input.obj
+         Release_SprayAndPray_vc12_x86\Iw2DSceneGraph.obj
+         Release_SprayAndPray_vc12_x86\Iw2DSceneGraphCore.obj
+         Release_SprayAndPray_vc12_x86\IwResHandlerWAV.obj
+         Release_SprayAndPray_vc12_x86\IwSoundADPCM.obj
+         Release_SprayAndPray_vc12_x86\IwSoundData.obj
+         Release_SprayAndPray_vc12_x86\IwSoundGroup.obj
+         Release_SprayAndPray_vc12_x86\IwSoundInst.obj
+         Release_SprayAndPray_vc12_x86\IwSoundManager.obj
+         Release_SprayAndPray_vc12_x86\IwSoundPCM.obj
+         Release_SprayAndPray_vc12_x86\IwSoundParams.obj
+         Release_SprayAndPray_vc12_x86\IwSoundSpec.obj
+         Release_SprayAndPray_vc12_x86\IwTween.obj
+         Release_SprayAndPray_vc12_x86\Menu.obj
+         Release_SprayAndPray_vc12_x86\PVRTexTool_interface.obj
+         Release_SprayAndPray_vc12_x86\Player.obj
+         Release_SprayAndPray_vc12_x86\SprayAndPray.obj
+         Release_SprayAndPray_vc12_x86\Sprite.obj
+         Release_SprayAndPray_vc12_x86\Trackpad.obj
+         Release_SprayAndPray_vc12_x86\View.obj
+         Release_SprayAndPray_vc12_x86\definitions.obj
+     1>LIBCMTD.lib(sscanf.obj) : warning LNK4006: _vsscanf already defined in s3e.lib(iwcrt_win32.obj); second definition ignored
+     1>LIBCMTD.lib(strtoq.obj) : warning LNK4006: _strtof already defined in s3e.lib(iwcrt_common.obj); second definition ignored
+            Creating library Release_SprayAndPray_vc12_x86\SprayAndPray.lib and object Release_SprayAndPray_vc12_x86\SprayAndPray.exp
+     1>Release_SprayAndPray_vc12_x86\SprayAndPray.s86 : warning LNK4088: image being generated due to /FORCE option; image may not run
+         SprayAndPray_vc12.vcxproj -> D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Release_SprayAndPray_vc12_x86\SprayAndPray.s86
+       PostBuildEvent:
+         echo "C:\Program Files\Marmalade\7.4\s3e\python\python.exe" .\process_map.py "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Release_SprayAndPray_vc12_x86\SprayAndPray.s86"
+         chdir /d "c:\program files\marmalade\7.4\s3e\tools"
+         "C:\Program Files\Marmalade\7.4\s3e\python\python.exe" .\process_map.py "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Release_SprayAndPray_vc12_x86\SprayAndPray.s86"
+         echo "s3e_plink" -l "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Release_SprayAndPray_vc12_x86\SprayAndPray.s86" 
+         chdir /d "c:\program files\marmalade\7.4\s3e\bin"
+         "s3e_plink" -l "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Release_SprayAndPray_vc12_x86\SprayAndPray.s86" 
+         
+         :VCEnd
+         "C:\Program Files\Marmalade\7.4\s3e\python\python.exe" .\process_map.py "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Release_SprayAndPray_vc12_x86\SprayAndPray.s86"
+         "s3e_plink" -l "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Release_SprayAndPray_vc12_x86\SprayAndPray.s86" 
+     1>Done Building Project "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.38

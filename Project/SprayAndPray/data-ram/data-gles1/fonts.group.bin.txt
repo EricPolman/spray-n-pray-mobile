@@ -1,0 +1,13 @@
+ResGroupResources:
+	CIwGxFontTTFont (0xc084661d)
+		"ARLRDBD" (0x405f4a40)
+		Size: 45274
+	ResList 'CIwGxFontTTFont' pos:36 size:45284
+
+	CIwGxFont (0xa68776be)
+		"ArialBold8" (0xb203c087)
+		Size: 35
+	ResList 'CIwGxFont' pos:45320 size:45
+
+ResGroupResources: Wrote 45333 bytes to CIwResGroup "fonts"
+

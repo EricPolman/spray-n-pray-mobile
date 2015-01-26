@@ -1,0 +1,19 @@
+# comments and whitespace stripped by deployment tool
+[S3E]
+MemSize=20480000
+MemSizeDebug=20480000
+SplashScreenBkR=0
+SplashScreenBkG=0
+SplashScreenBkB=0
+SplashScreenWidth=650
+SplashScreenHeight=650
+[GX]
+DataCacheSize=80000
+[Util]
+MemMgrMaxAllocWarning=0
+[SOUND]
+MaxChannels=32
+[s3e]
+SysAppVersion=0.0.1
+SysAppCaption="Spray & Pray"
+SplashScreenFile=s3e_splash.jpg

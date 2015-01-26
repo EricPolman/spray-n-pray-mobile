@@ -1,0 +1,6 @@
+build "ARM GCC Release"
+outdir "D:/Git/Year2/fga2.gt2/CD/Build"
+!task !name "Default:android" "Package"
+!config !name "Default"
+!config <os> "android"
+configlist "Default",

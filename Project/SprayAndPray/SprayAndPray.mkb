@@ -1,0 +1,84 @@
+#!/usr/bin/env mkb
+files
+{
+    SprayAndPray.cpp
+
+	# CPP files
+    AudioManager.cpp
+    Background.cpp
+    Bullet.cpp
+    Button.cpp
+	Checkbox.cpp
+    CollisionManager.cpp
+    definitions.cpp
+    Enemy.cpp
+    Game.cpp
+    GameSprite.cpp
+    GameView.cpp
+    GuiElement.cpp
+    GuiTexture.cpp
+    ImageManager.cpp
+    Input.cpp
+    Menu.cpp
+    Player.cpp
+    Sprite.cpp
+    Trackpad.cpp
+    View.cpp
+
+	# Header files
+    AudioManager.h
+    Background.h
+    Bullet.h
+    Button.h
+	Checkbox.h
+    CollisionManager.h
+    definitions.h
+    Enemy.h
+    Game.h
+    GameSprite.h
+    GameView.h
+    GuiElement.h
+    GuiTexture.h
+    ImageManager.h
+    Input.h
+    Menu.h
+    Player.h
+    Singleton.h
+    Sprite.h
+    Trackpad.h
+    View.h
+}
+
+defines
+{
+IW_GXFONT_TTF
+}
+
+subprojects
+{
+    iwutil
+    iw2dscenegraphcore
+    iw2dscenegraph
+    iwgx
+	iwgxfont
+	iwnui
+    iwresmanager
+    iwtween
+	SoundEngine
+}
+
+deployment
+{
+	name="SprayAndPray"
+	caption="Spray & Pray"
+	icon="data/icon.png"
+	splashscreen="data/splash.png"
+}
+
+assets
+{
+	(data-ram/data-gles1, data)
+	images.group.bin
+	audio.group.bin
+	fonts.group.bin
+}

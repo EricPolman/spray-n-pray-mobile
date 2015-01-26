@@ -1,0 +1,31 @@
+CIwResGroup
+{
+    name "images"
+	
+	./resources/game/bullet.png
+	./resources/game/enemy.png
+	./resources/game/mover.png
+	./resources/game/mover_pressed.png
+	./resources/game/player.png
+	./resources/game/player_gun.png
+	./resources/game/playground.png
+	./resources/game/restartbtn_normal.png
+	./resources/game/restartbtn_pressed.png
+	./resources/game/continueplaying.png
+	
+	./resources/menu/back.png
+	./resources/menu/back_pressed.png
+	./resources/menu/menu_background.png
+	./logo.png
+	./resources/menu/button_play_normal.png
+	./resources/menu/button_play_pressed.png
+	./resources/menu/menu_bar.png
+	./resources/menu/settings.png
+	./resources/menu/settings_pressed.png
+	
+	./resources/menu/checkbox_normal.png
+	./resources/menu/checkbox_pressed.png
+	./resources/menu/checkbox_mark.png
+	./resources/menu/sfx_label.png
+	./resources/menu/music_label.png
+}

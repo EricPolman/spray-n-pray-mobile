@@ -1,0 +1,33 @@
+# 1 "D:/Git/Year2/fga2.gt2/SprayAndPray/definitions.cpp"
+# 1 "<command-line>"
+# 1 "d:/Git/Year2/fga2.gt2/SprayAndPray/build_sprayandpray_vc12/temp_defines_release.h" 1
+# 1 "<command-line>" 2
+# 1 "D:/Git/Year2/fga2.gt2/SprayAndPray/definitions.cpp"
+# 1 "D:/Git/Year2/fga2.gt2/SprayAndPray/definitions.h" 1
+       
+class CIw2DImage;
+class CIwFVec2;
+
+
+typedef CIw2DImage Image;
+typedef CIwFVec2 Vector2;
+
+enum EventType
+{
+  EVENT_SCREEN_CHANGED
+};
+
+
+
+
+
+
+enum CollisionType
+{
+  GENERIC,
+  PLAYER_BULLET,
+  ENEMY_BULLET,
+  PLAYER,
+  ENEMY
+};
+# 2 "D:/Git/Year2/fga2.gt2/SprayAndPray/definitions.cpp" 2

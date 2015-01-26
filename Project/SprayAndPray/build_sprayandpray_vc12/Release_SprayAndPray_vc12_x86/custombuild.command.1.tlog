@@ -1,0 +1,2 @@
+^D:\GIT\YEAR2\FGA2.GT2\SPRAYANDPRAY\SPRAYANDPRAY.MKB
+"C:\Program Files\Marmalade\7.4\s3e\python\python.exe" "C:\Program Files\Marmalade\7.4\s3e\makefile_builder\mkb.py" "d:/Git/Year2/fga2.gt2/SprayAndPray/SprayAndPray.mkb" "--buildenv=VC12" "--default-buildenv=vc12" --msvc-project

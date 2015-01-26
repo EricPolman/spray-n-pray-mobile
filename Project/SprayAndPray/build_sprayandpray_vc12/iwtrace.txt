@@ -1,0 +1,1088 @@
+-- START TRACE TO FILE --
+tracing to: ''
+MarmaladeSDK v7.4.3 [415797] (S3E Loader v4.39.0)
+Copyright (C) 2001-2014 Marmalade Technologies Ltd.
+System Info:
+ OS           : WINDOWS (3)
+ OS Version   : Windows 6.2 (6.2)
+ Device ID    : Windows Simulator (0x1)
+ Device Class : WINDOWS_GENERIC (3000)
+ Phone Number : 0044123456789
+ Unique ID    : SIMULATOR_ID
+ Device Name  : My Computer
+ Memory       : 1048576KiB
+23/01/15 00:18:48.406: [0x3124] DEVICE: Initialising FIBRE
+23/01/15 00:18:48.407: [0x3124] DEVICE: Initialising THREAD
+23/01/15 00:18:48.407: [0x3124] THREAD: s3eThreadCreateMain
+23/01/15 00:18:48.408: [0xfa0] DEVICE: Initialising SURFACE
+23/01/15 00:18:48.408: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB888, pitch=0, ptr=0x00000000, blit=0
+23/01/15 00:18:48.408: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+23/01/15 00:18:48.408: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+23/01/15 00:18:48.409: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:1600 (800x600 p:1600) o:0
+23/01/15 00:18:48.409: [0xfa0] DEVICE: Initialising EXT
+23/01/15 00:18:48.409: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
+23/01/15 00:18:48.410: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
+23/01/15 00:18:48.410: [0xfa0] EXT: registering extension: s3eCamera [0xa3e23039]
+23/01/15 00:18:48.410: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
+23/01/15 00:18:48.411: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
+23/01/15 00:18:48.411: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
+23/01/15 00:18:48.411: [0xfa0] EXT: registering extension: s3eSoundRecord [0x579dbf78]
+23/01/15 00:18:48.411: [0xfa0] EXT: registering extension: s3eTouchpad [0x1dbd7ce8]
+23/01/15 00:18:48.411: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
+23/01/15 00:18:48.412: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
+23/01/15 00:18:48.412: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
+23/01/15 00:18:48.412: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
+23/01/15 00:18:48.412: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
+23/01/15 00:18:48.412: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
+23/01/15 00:18:48.413: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
+23/01/15 00:18:48.413: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
+23/01/15 00:18:48.413: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
+23/01/15 00:18:48.413: [0xfa0] EXT: registering extension: s3eHighResTimer [0x41f2dedb]
+23/01/15 00:18:48.413: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
+23/01/15 00:18:48.414: [0xfa0] EXT: registering extension: s3eCameraCapture [0xd36aceed]
+23/01/15 00:18:48.414: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
+23/01/15 00:18:48.414: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
+23/01/15 00:18:48.414: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
+23/01/15 00:18:48.414: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
+23/01/15 00:18:48.415: [0xfa0] EXT: registering extension: s3eImagePicker [0xd2fc1d51]
+23/01/15 00:18:48.415: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
+23/01/15 00:18:48.415: [0xfa0] EXT: registering extension: s3eSMS [0x17f480c3]
+23/01/15 00:18:48.415: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
+23/01/15 00:18:48.415: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
+23/01/15 00:18:48.416: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
+23/01/15 00:18:48.416: [0xfa0] EXT: registering extension: Location [0x7604d91e]
+23/01/15 00:18:48.416: [0xfa0] EXT: registering extension: Win32Surface [0x909755c1]
+23/01/15 00:18:48.416: [0xfa0] EXT: registering extension: Win32UIProcessMessage [0x48f2a5ba]
+23/01/15 00:18:48.416: [0xfa0] EXT: registering extension: Win32DataDirChange [0xbfcfc057]
+23/01/15 00:18:48.417: [0xfa0] DEVICE: Initialising CONFIG
+23/01/15 00:18:48.417: [0xfa0] DEVICE: Initialising TIMER
+23/01/15 00:18:48.417: [0xfa0] DEVICE: Initialising COMPRESSION
+23/01/15 00:18:48.418: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
+23/01/15 00:18:48.418: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
+23/01/15 00:18:48.418: [0xfa0] EXT: initializing extension: s3eWindow
+23/01/15 00:18:48.418: [0xfa0] EXT: initializing extension: s3eWindow 0x0fbec2a0
+23/01/15 00:18:48.418: [0xfa0] DEVICE: SetupPaths: NULL
+23/01/15 00:18:48.419: [0xfa0] LOADER: ParseCommandLineData [-via:"d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12_debug.via"]
+23/01/15 00:18:48.419: [0xfa0] LOADER: setting [commandline]  via=d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12_debug.via
+23/01/15 00:18:48.419: [0xfa0] LOADER: parsing via file: d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12_debug.via
+23/01/15 00:18:48.420: [0xfa0] FILE: s3eFileOpen('d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12_debug.via', 'r') succeeded, id=264955640 p=0x0fcae6f8
+23/01/15 00:18:48.420: [0xfa0] LOADER: reading 1371 bytes from via files
+23/01/15 00:18:48.420: [0xfa0] FILE: s3eFileClose h=0x0fcae6f8
+23/01/15 00:18:48.420: [0xfa0] LOADER: ParseCommandLineData [-via:"d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12_debug.via" --dll="d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_VC12_x86\Spray
+23/01/15 00:18:48.421: [0xfa0] LOADER: setting [commandline]  via=d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12_debug.via
+23/01/15 00:18:48.421: [0xfa0] LOADER: setting [commandline]  dll=d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_VC12_x86\SprayAndPray.s86
+23/01/15 00:18:48.421: [0xfa0] LOADER: setting [commandline]  data=d:\Git\Year2\fga2.gt2\SprayAndPray\data
+23/01/15 00:18:48.421: [0xfa0] LOADER: setting [commandline]  checks3edir=1
+23/01/15 00:18:48.422: [0xfa0] LOADER: setting [commandline]  app-icf1=d:/Git/Year2/fga2.gt2/SprayAndPray/data/app.icf
+23/01/15 00:18:48.422: [0xfa0] LOADER: setting [commandline]  win32-ext-dll1=c:/program files/marmalade/7.4/extensions/pvrtextool/lib/win32/PVRTexTool.dll
+23/01/15 00:18:48.422: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/program files/marmalade/7.4/modules/iw2d/docs/iw2d.config.txt
+23/01/15 00:18:48.422: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/program files/marmalade/7.4/modules/iwgeom/docs/iwgeom.config.txt
+23/01/15 00:18:48.422: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/program files/marmalade/7.4/modules/iwgl/docs/iwgl.config.txt
+23/01/15 00:18:48.423: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/program files/marmalade/7.4/modules/iwgx/docs/iwgx.config.txt
+23/01/15 00:18:48.423: [0xfa0] LOADER: setting [commandline]  config-txt5=c:/program files/marmalade/7.4/modules/iwgxfont/docs/iwgxfont.config.txt
+23/01/15 00:18:48.423: [0xfa0] LOADER: setting [commandline]  config-txt6=c:/program files/marmalade/7.4/modules/iwresmanager/docs/iwresmanager.config.txt
+23/01/15 00:18:48.423: [0xfa0] LOADER: setting [commandline]  config-txt7=c:/program files/marmalade/7.4/modules/iwui/docs/iwui.config.txt
+23/01/15 00:18:48.424: [0xfa0] LOADER: setting [commandline]  config-txt8=c:/program files/marmalade/7.4/modules/iwutil/docs/iwutil.config.txt
+23/01/15 00:18:48.424: [0xfa0] LOADER: setting [commandline]  config-txt9=c:/program files/marmalade/7.4/s3e/s3e.config.txt
+23/01/15 00:18:48.424: [0xfa0] LOADER: setting [commandline]  config-txt10=d:/Git/Year2/fga2.gt2/SprayAndPray/data/app.config.txt
+23/01/15 00:18:48.424: [0xfa0] LOADER: setting [commandline]  config-txt11=d:/git/year2/fga2.gt2/sprayandpray/SoundEngine/docs/iwsound.config.txt
+23/01/15 00:18:48.425: [0xfa0] LOADER: setting [commandline]  config-txt12=c:/program files/marmalade/7.4/s3e\s3e.config.txt
+23/01/15 00:18:48.426: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/program
+23/01/15 00:18:48.426: [0xfa0] LOADER: setting [commandline]  argv[1]=files/marmalade/7.4/s3e
+23/01/15 00:18:48.429: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+23/01/15 00:18:48.429: [0xfa0] FILE: fs[00]: system[rom://] 'd:\Git\Year2\fga2.gt2\SprayAndPray\data'
+23/01/15 00:18:48.429: [0xfa0] FILE: fs[03]: system[raw://] ''
+23/01/15 00:18:48.429: [0xfa0] FILE: listed 2 active filesystems
+23/01/15 00:18:48.430: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+23/01/15 00:18:48.430: [0xfa0] FILE: fs[00]: system[rom://] 'd:\Git\Year2\fga2.gt2\SprayAndPray\data'
+23/01/15 00:18:48.430: [0xfa0] FILE: fs[01]: system[ram://] 'd:\Git\Year2\fga2.gt2\SprayAndPray\data-ram'
+23/01/15 00:18:48.430: [0xfa0] FILE: fs[03]: system[raw://] ''
+23/01/15 00:18:48.431: [0xfa0] FILE: listed 3 active filesystems
+23/01/15 00:18:48.436: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+23/01/15 00:18:48.436: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+23/01/15 00:18:48.437: [0xfa0] LOADER: Using data directory d:\Git\Year2\fga2.gt2\SprayAndPray\data as ROM drive
+23/01/15 00:18:48.437: [0xfa0] LOADER: Using directory d:\Git\Year2\fga2.gt2\SprayAndPray\data-ram as RAM drive
+23/01/15 00:18:48.437: [0xfa0] FILE: s3eFileOpen('raw://c:/program files/marmalade/7.4/modules/iw2d/docs/iw2d.config.txt', 'r') succeeded, id=1000 p=0x0fcafdcc
+23/01/15 00:18:48.437: [0xfa0] FILE: s3eFileClose h=0x0fcafdcc
+23/01/15 00:18:48.438: [0xfa0] FILE: s3eFileOpen('raw://c:/program files/marmalade/7.4/modules/iwgeom/docs/iwgeom.config.txt', 'r') succeeded, id=1001 p=0x0fcafee8
+23/01/15 00:18:48.438: [0xfa0] FILE: s3eFileClose h=0x0fcafee8
+23/01/15 00:18:48.438: [0xfa0] FILE: s3eFileOpen('raw://c:/program files/marmalade/7.4/modules/iwgl/docs/iwgl.config.txt', 'r') succeeded, id=1002 p=0x0fcb0004
+23/01/15 00:18:48.439: [0xfa0] FILE: s3eFileClose h=0x0fcb0004
+23/01/15 00:18:48.439: [0xfa0] FILE: s3eFileOpen('raw://c:/program files/marmalade/7.4/modules/iwgx/docs/iwgx.config.txt', 'r') succeeded, id=1003 p=0x0fcb0120
+23/01/15 00:18:48.440: [0xfa0] FILE: s3eFileClose h=0x0fcb0120
+23/01/15 00:18:48.440: [0xfa0] FILE: s3eFileOpen('raw://c:/program files/marmalade/7.4/modules/iwgxfont/docs/iwgxfont.config.txt', 'r') succeeded, id=1004 p=0x0fcb023c
+23/01/15 00:18:48.441: [0xfa0] FILE: s3eFileClose h=0x0fcb023c
+23/01/15 00:18:48.441: [0xfa0] FILE: s3eFileOpen('raw://c:/program files/marmalade/7.4/modules/iwresmanager/docs/iwresmanager.config.txt', 'r') succeeded, id=1005 p=0x0fcb0358
+23/01/15 00:18:48.441: [0xfa0] FILE: s3eFileClose h=0x0fcb0358
+23/01/15 00:18:48.442: [0xfa0] FILE: s3eFileOpen('raw://c:/program files/marmalade/7.4/modules/iwui/docs/iwui.config.txt', 'r') succeeded, id=1006 p=0x0fcb0474
+23/01/15 00:18:48.442: [0xfa0] FILE: s3eFileClose h=0x0fcb0474
+23/01/15 00:18:48.442: [0xfa0] FILE: s3eFileOpen('raw://c:/program files/marmalade/7.4/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1007 p=0x0fcb0590
+23/01/15 00:18:48.443: [0xfa0] FILE: s3eFileClose h=0x0fcb0590
+23/01/15 00:18:48.443: [0xfa0] FILE: s3eFileOpen('raw://c:/program files/marmalade/7.4/s3e/s3e.config.txt', 'r') succeeded, id=1008 p=0x0fcb06ac
+23/01/15 00:18:48.448: [0xfa0] FILE: s3eFileClose h=0x0fcb06ac
+23/01/15 00:18:48.448: [0xfa0] FILE: s3eFileOpen('raw://d:/Git/Year2/fga2.gt2/SprayAndPray/data/app.config.txt', 'r') succeeded, id=1009 p=0x0fcb07c8
+23/01/15 00:18:48.449: [0xfa0] FILE: s3eFileClose h=0x0fcb07c8
+23/01/15 00:18:48.449: [0xfa0] FILE: s3eFileOpen('raw://d:/git/year2/fga2.gt2/sprayandpray/SoundEngine/docs/iwsound.config.txt', 'r') succeeded, id=1010 p=0x0fcb08e4
+23/01/15 00:18:48.449: [0xfa0] FILE: s3eFileClose h=0x0fcb08e4
+23/01/15 00:18:48.450: [0xfa0] FILE: s3eFileOpen('raw://c:/program files/marmalade/7.4/s3e\s3e.config.txt', 'r') succeeded, id=1011 p=0x0fcb0a00
+23/01/15 00:18:48.456: [0xfa0] FILE: s3eFileClose h=0x0fcb0a00
+23/01/15 00:18:48.458: [0xfa0] FILE: s3eFileOpen('raw://c:\program files\marmalade\7.4\s3e/s3e.icf', 'rb') succeeded, id=1012 p=0x0fcb0b1c
+23/01/15 00:18:48.458: [0xfa0] LOADER: Loading config from: c:\program files\marmalade\7.4\s3e/s3e.icf
+23/01/15 00:18:48.459: [0xfa0] FILE: s3eFileClose h=0x0fcb0b1c
+23/01/15 00:18:48.460: [0xfa0] LOADER: Loading app-icf from command line specified location d:/Git/Year2/fga2.gt2/SprayAndPray/data/app.icf
+23/01/15 00:18:48.460: [0xfa0] FILE: s3eFileOpen('raw://d:/Git/Year2/fga2.gt2/SprayAndPray/data/app.icf', 'rb') succeeded, id=1013 p=0x0fcb0c38
+23/01/15 00:18:48.461: [0xfa0] LOADER: Loading config from: raw://d:/Git/Year2/fga2.gt2/SprayAndPray/data/app.icf
+23/01/15 00:18:48.461: [0xfa0] FILE: s3eFileClose h=0x0fcb0c38
+23/01/15 00:18:48.462: [0xfa0] LOADER: ParseCommandLineData [-via:"d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12_debug.via"]
+23/01/15 00:18:48.462: [0xfa0] LOADER: setting [commandline]  via=d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12_debug.via
+23/01/15 00:18:48.462: [0xfa0] LOADER: parsing via file: d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12_debug.via
+23/01/15 00:18:48.462: [0xfa0] FILE: s3eFileOpen('d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12_debug.via', 'r') succeeded, id=1014 p=0x0fcb0d54
+23/01/15 00:18:48.462: [0xfa0] LOADER: reading 1371 bytes from via files
+23/01/15 00:18:48.463: [0xfa0] FILE: s3eFileClose h=0x0fcb0d54
+23/01/15 00:18:48.464: [0xfa0] LOADER: ParseCommandLineData [-via:"d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12_debug.via" --dll="d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_VC12_x86\Spray
+23/01/15 00:18:48.465: [0xfa0] LOADER: setting [commandline]  via=d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12_debug.via
+23/01/15 00:18:48.465: [0xfa0] LOADER: setting [commandline]  dll=d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_VC12_x86\SprayAndPray.s86
+23/01/15 00:18:48.465: [0xfa0] LOADER: setting [commandline]  data=d:\Git\Year2\fga2.gt2\SprayAndPray\data
+23/01/15 00:18:48.466: [0xfa0] LOADER: setting [commandline]  checks3edir=1
+23/01/15 00:18:48.466: [0xfa0] LOADER: setting [commandline]  app-icf1=d:/Git/Year2/fga2.gt2/SprayAndPray/data/app.icf
+23/01/15 00:18:48.466: [0xfa0] LOADER: setting [commandline]  win32-ext-dll1=c:/program files/marmalade/7.4/extensions/pvrtextool/lib/win32/PVRTexTool.dll
+23/01/15 00:18:48.466: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/program files/marmalade/7.4/modules/iw2d/docs/iw2d.config.txt
+23/01/15 00:18:48.467: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/program files/marmalade/7.4/modules/iwgeom/docs/iwgeom.config.txt
+23/01/15 00:18:48.467: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/program files/marmalade/7.4/modules/iwgl/docs/iwgl.config.txt
+23/01/15 00:18:48.468: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/program files/marmalade/7.4/modules/iwgx/docs/iwgx.config.txt
+23/01/15 00:18:48.468: [0xfa0] LOADER: setting [commandline]  config-txt5=c:/program files/marmalade/7.4/modules/iwgxfont/docs/iwgxfont.config.txt
+23/01/15 00:18:48.468: [0xfa0] LOADER: setting [commandline]  config-txt6=c:/program files/marmalade/7.4/modules/iwresmanager/docs/iwresmanager.config.txt
+23/01/15 00:18:48.468: [0xfa0] LOADER: setting [commandline]  config-txt7=c:/program files/marmalade/7.4/modules/iwui/docs/iwui.config.txt
+23/01/15 00:18:48.468: [0xfa0] LOADER: setting [commandline]  config-txt8=c:/program files/marmalade/7.4/modules/iwutil/docs/iwutil.config.txt
+23/01/15 00:18:48.469: [0xfa0] LOADER: setting [commandline]  config-txt9=c:/program files/marmalade/7.4/s3e/s3e.config.txt
+23/01/15 00:18:48.469: [0xfa0] LOADER: setting [commandline]  config-txt10=d:/Git/Year2/fga2.gt2/SprayAndPray/data/app.config.txt
+23/01/15 00:18:48.469: [0xfa0] LOADER: setting [commandline]  config-txt11=d:/git/year2/fga2.gt2/sprayandpray/SoundEngine/docs/iwsound.config.txt
+23/01/15 00:18:48.469: [0xfa0] LOADER: setting [commandline]  config-txt12=c:/program files/marmalade/7.4/s3e\s3e.config.txt
+23/01/15 00:18:48.470: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/program
+23/01/15 00:18:48.470: [0xfa0] LOADER: setting [commandline]  argv[1]=files/marmalade/7.4/s3e
+23/01/15 00:18:48.470: [0xfa0] LOADER: s3eExecMemoryCheck: Memory free: 1048576K
+23/01/15 00:18:48.471: [0xfa0] FILE: s3eFileOpen('raw://C:\Users\ERICPO~1\AppData\Local\Temp\\_marm_temp_test_', 'w') succeeded, id=1015 p=0x0fcb0e70
+23/01/15 00:18:48.471: [0xfa0] FILE: s3eFileClose h=0x0fcb0e70
+23/01/15 00:18:48.474: [0xfa0] FILE: new filesystem: drive=4 type=0 ro=0 name=tmp://
+23/01/15 00:18:48.474: [0xfa0] FILE: fs[00]: system[rom://] 'd:\Git\Year2\fga2.gt2\SprayAndPray\data'
+23/01/15 00:18:48.474: [0xfa0] FILE: fs[01]: system[ram://] 'd:\Git\Year2\fga2.gt2\SprayAndPray\data-ram'
+23/01/15 00:18:48.475: [0xfa0] FILE: fs[03]: system[raw://] ''
+23/01/15 00:18:48.475: [0xfa0] FILE: fs[04]: system[tmp://] 'C:\Users\ERICPO~1\AppData\Local\Temp\'
+23/01/15 00:18:48.475: [0xfa0] FILE: listed 4 active filesystems
+23/01/15 00:18:48.531: [0xfa0] SURFACE: scaling=0
+23/01/15 00:18:48.611: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB888, pitch=0, ptr=0x00000000, blit=0
+23/01/15 00:18:48.612: [0xfa0] SURFACE: s3eSurfaceSetup: does not match native type (requested=RGB888 native=RGB565)
+23/01/15 00:18:48.616: [0xfa0] EXT: Registering user-supplied extensions
+23/01/15 00:18:48.618: [0xfa0] EXT: Loading extension dll c:/program files/marmalade/7.4/extensions/pvrtextool/lib/win32/PVRTexTool_d.dll
+23/01/15 00:18:48.635: [0xfa0] LOADER: GL not present, resolving all GL symbols to unavailable
+23/01/15 00:18:48.638: [0xfa0] EXT: registering extension: PVRTexTool [0xb6b3ceac]
+23/01/15 00:18:48.640: [0xfa0] FIBRE: stack switch : enabled
+23/01/15 00:18:48.640: [0xfa0] FIBRE: fast switch  : disabled
+23/01/15 00:18:48.641: [0xfa0] FIBRE: global lock  : enabled
+23/01/15 00:18:48.644: [0xfa0] FIBRE: fast lock    : disabled
+23/01/15 00:18:48.645: [0xfa0] FIBRE: thunks       : enabled
+23/01/15 00:18:48.645: [0xfa0] LOADER: Calling s3eDeviceInit()
+23/01/15 00:18:48.645: [0xfa0] DEVICE: DeviceInit: services=0xfffdffff [0xe5dc9eb7]
+23/01/15 00:18:48.646: [0xfa0] DEVICE: Initialising CALLBACKS
+23/01/15 00:18:48.647: [0xfa0] DEVICE: Initialising CRYPTO
+23/01/15 00:18:48.647: [0xfa0] DEVICE: Initialising ERROR
+23/01/15 00:18:48.648: [0xfa0] DEVICE: Initialising SOCKET
+23/01/15 00:18:48.650: [0xfa0] DEVICE: Initialising STORAGE
+23/01/15 00:18:48.652: [0xfa0] DEVICE: Initialising VIBRA
+23/01/15 00:18:48.653: [0xfa0] DEVICE: Initialising KEYBOARD
+23/01/15 00:18:48.654: [0xfa0] DEVICE: Initialising POINTER
+23/01/15 00:18:48.655: [0xfa0] DEVICE: Initialising ACCELEROMETER
+23/01/15 00:18:48.655: [0xfa0] ACCELEROMETER: damping=0 scaling=0
+23/01/15 00:18:48.655: [0xfa0] DEVICE: Initialising SOUND
+23/01/15 00:18:48.708: [0xfa0] SOUND: stereo sound enabled
+23/01/15 00:18:48.709: [0xfa0] SOUND: s3eSoundStop: started=0
+23/01/15 00:18:48.709: [0xfa0] SOUND: SetMasterVolume: 255 -> 256
+23/01/15 00:18:48.710: [0xfa0] DEVICE: Initialising AUDIO
+23/01/15 00:18:48.710: [0xfa0] AUDIO: Number of channels = 16
+23/01/15 00:18:48.710: [0xfa0] DEVICE: Initialising VIDEO
+23/01/15 00:18:48.711: [0xfa0] DEVICE: Initialising LICENSE
+23/01/15 00:18:48.711: [0xfa0] DEVICE: Initialising GL
+23/01/15 00:18:48.711: [0xfa0] DEVICE: DeviceInit done: services=0xfffdffff
+23/01/15 00:18:48.716: [0x2cbc] SURFACE: s3eSurfaceSetup: PixelType=RGB888, pitch=0, ptr=0x00000000, blit=0
+23/01/15 00:18:48.717: [0x2cbc] SURFACE: s3eSurfaceSetup: does not match native type (requested=RGB888 native=RGB565)
+23/01/15 00:18:48.720: [0xfa0] SPLASH: displaying debug splash-screen
+23/01/15 00:18:48.738: [0xfa0] LICENSE: SplashScreenRequired: Splash set in licenseText
+23/01/15 00:18:48.760: [0xfa0] LICENSE: LicenseType: ret true : output=Free
+23/01/15 00:18:48.761: [0xfa0] SPLASH: No splash screen specified
+23/01/15 00:18:48.769: [0xfa0] LOADER: s3eExecInit Done
+23/01/15 00:18:48.771: [0xfa0] LOADER: found initial S3E file: raw://d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_VC12_x86\SprayAndPray.s86
+23/01/15 00:18:48.771: [0xfa0] DEVICE: s3eExecPushNext: raw://d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_VC12_x86\SprayAndPray.s86 [root=NULL 0x00000000 0x00000000]
+23/01/15 00:18:48.771: [0xfa0] DEVICE: s3eExecPushNext: raw://d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_VC12_x86\SprayAndPray.s86
+23/01/15 00:18:48.771: [0xfa0] LOADER: s3eExecDoExecuteLoop
+23/01/15 00:18:48.795: [0xfa0] LICENSE: LicenseType: ret true : output=Free
+23/01/15 00:18:48.796: [0xfa0] SOCKET: s3eSocketCreate -> p=0x0fd54b9c id=3000
+23/01/15 00:18:48.796: [0xfa0] SOCKET: s3eInetLookup: 'www.google-analytics.com'
+23/01/15 00:18:48.797: [0xfa0] SOCKET: s3eInetLookup (synchronous): done DNS: '173.194.78.139:0'
+23/01/15 00:18:48.797: [0xfa0] SOCKET: s3eSocketConnect: 0x0fd54b9c -> 173.194.78.139:80
+23/01/15 00:18:48.798: [0xfa0] SOCKET: TryConnect error: 10036
+23/01/15 00:18:48.798: [0xfa0] SOCKET: Connect: FAILED (0: )
+23/01/15 00:18:48.839: [0xfa0] LOADER: AppVersion: 4 39
+23/01/15 00:18:48.839: [0xfa0] LOADER: S3E Version    : 4.39.0
+23/01/15 00:18:48.839: [0xfa0] LOADER: Arch           : X86
+23/01/15 00:18:48.839: [0xfa0] LOADER: VFP            : 1
+23/01/15 00:18:48.840: [0xfa0] LOADER: App S3E Version: 4.39.0
+23/01/15 00:18:48.840: [0xfa0] LOADER: App arch       : X86
+23/01/15 00:18:48.840: [0xfa0] LOADER: App VFP        : 0
+23/01/15 00:18:48.841: [0xfa0] LOADER: new s3eExecHandle = 0x00b15390
+23/01/15 00:18:48.841: [0xfa0] SOCKET: TryConnect error: 10056
+23/01/15 00:18:48.841: [0xfa0] SOCKET: NotifyConnect: 3000 0x0fd54b9c
+23/01/15 00:18:48.857: [0xfa0] FILE: s3eFileOpen('ident.free', 'r') succeeded, id=1016 p=0x0fcb0f8c
+23/01/15 00:18:48.859: [0xfa0] FILE: s3eFileOpen('ram://uident.free', 'r') succeeded, id=1017 p=0x0fcb10a8
+23/01/15 00:18:48.859: [0xfa0] FILE: s3eFileClose h=0x0fcb10a8
+23/01/15 00:18:48.860: [0xfa0] SOCKET: s3eSocketClose: 0x0fd54b9c open=1
+23/01/15 00:18:50.722: [0xfa0] LOADER: Screen size: 422 709
+23/01/15 00:18:50.726: [0xfa0] FILE: s3eFileOpen('raw://C:\Program Files\Marmalade\7.4\s3e/deploy/resources/mwm-splash-320.jpg', 'rb') succeeded, id=1018 p=0x0fcb11c4
+23/01/15 00:18:50.726: [0xfa0] FILE: s3eFileClose h=0x0fcb11c4
+23/01/15 00:18:50.728: [0xfa0] VIDEO: s3eVideoPlay raw://C:\Program Files\Marmalade\7.4\s3e/deploy/resources/mwm-splash-320.jpg
+23/01/15 00:18:50.729: [0xfa0] FILE: s3eFileOpen('raw://C:\Program Files\Marmalade\7.4\s3e/deploy/resources/mwm-splash-320.jpg', 'rb') succeeded, id=1019 p=0x0fcb12e0
+23/01/15 00:18:50.729: [0xfa0] VIDEO: data in in JPG (EXIF) format
+23/01/15 00:18:50.729: [0xfa0] FILE: s3eFileClose h=0x0fcb12e0
+23/01/15 00:18:50.729: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
+23/01/15 00:18:50.730: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw://C:\Program Files\Marmalade\7.4\s3e/deploy/resources/mwm-splash-320.jpg
+23/01/15 00:18:50.730: [0xfa0] FILE: s3eFileOpen('raw://C:\Program Files\Marmalade\7.4\s3e/deploy/resources/mwm-splash-320.jpg', 'rb') succeeded, id=1020 p=0x0fcb13fc
+23/01/15 00:18:50.730: [0xfa0] JPEG: loading jpeg file: raw://C:\Program Files\Marmalade\7.4\s3e/deploy/resources/mwm-splash-320.jpg [37220]
+23/01/15 00:18:50.731: [0xfa0] JPEG: jpeg head was read: [320x320]
+23/01/15 00:18:50.733: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[51x194], display[(0-320)x(0-320)]
+23/01/15 00:18:50.733: [0xfa0] JPEG: from [320x320] to [320x320]
+23/01/15 00:18:50.739: [0xfa0] FILE: s3eFileClose h=0x0fcb13fc
+23/01/15 00:18:50.739: [0xfa0] VIDEO: s3eVideoPlay done: 0
+23/01/15 00:18:52.724: [0xfa0] FILE: s3eFileOpen('raw://C:\Program Files\Marmalade\7.4\s3e/deploy/resources/ads/ad.320.jpg', 'rb') succeeded, id=1021 p=0x0fcb1518
+23/01/15 00:18:52.724: [0xfa0] VIDEO: s3eVideoPlay raw://C:\Program Files\Marmalade\7.4\s3e/deploy/resources/ads/ad.320.jpg
+23/01/15 00:18:52.725: [0xfa0] FILE: s3eFileOpen('raw://C:\Program Files\Marmalade\7.4\s3e/deploy/resources/ads/ad.320.jpg', 'rb') succeeded, id=1022 p=0x0fcb1634
+23/01/15 00:18:52.725: [0xfa0] VIDEO: data in in JPG (EXIF) format
+23/01/15 00:18:52.725: [0xfa0] FILE: s3eFileClose h=0x0fcb1634
+23/01/15 00:18:52.725: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
+23/01/15 00:18:52.725: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw://C:\Program Files\Marmalade\7.4\s3e/deploy/resources/ads/ad.320.jpg
+23/01/15 00:18:52.726: [0xfa0] FILE: s3eFileOpen('raw://C:\Program Files\Marmalade\7.4\s3e/deploy/resources/ads/ad.320.jpg', 'rb') succeeded, id=1023 p=0x0fcb1750
+23/01/15 00:18:52.726: [0xfa0] JPEG: loading jpeg file: raw://C:\Program Files\Marmalade\7.4\s3e/deploy/resources/ads/ad.320.jpg [30325]
+23/01/15 00:18:52.727: [0xfa0] JPEG: jpeg head was read: [320x320]
+23/01/15 00:18:52.730: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[51x194], display[(0-320)x(0-320)]
+23/01/15 00:18:52.731: [0xfa0] JPEG: from [320x320] to [320x320]
+23/01/15 00:18:52.737: [0xfa0] FILE: s3eFileClose h=0x0fcb1750
+23/01/15 00:18:52.738: [0xfa0] VIDEO: s3eVideoPlay done: 0
+23/01/15 00:18:58.732: [0xfa0] SPLASH: No game splash screen to display
+23/01/15 00:18:58.743: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
+23/01/15 00:18:58.743: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+23/01/15 00:18:58.744: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+23/01/15 00:18:58.744: [0xfa0] LOADER: Calling s3eDeviceInit(S3E_DEVICE_INIT_MEMORY)
+23/01/15 00:18:58.744: [0xfa0] DEVICE: DeviceInit: services=0x00020000 [0x00020000]
+23/01/15 00:18:58.745: [0xfa0] DEVICE: Initialising MEMORY
+23/01/15 00:18:58.745: [0xfa0] MEMORY: Loader heap size=30000
+23/01/15 00:18:58.752: [0xfa0] MEMORY: Initialised heap 0 [0x07721c64-0x08aa9c64] size=20480000
+23/01/15 00:18:58.753: [0xfa0] MEMORY: Initialised heap 7 [0x02d61464-0x02d6dc64] size=51200
+23/01/15 00:18:58.753: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x00b71d80 0x00b71fc0 0x00b71a98
+23/01/15 00:18:58.753: [0xfa0] DEVICE: DeviceInit done: services=0x00020000
+23/01/15 00:18:58.754: [0xfa0] LOADER: IwS3EGetEntryPoint -> 0x065eeff0
+23/01/15 00:18:58.754: [0xfa0] LOADER: Executing S3E 0x00b15390 [d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_VC12_x86\SprayAndPray.s86] entry=0x065eeff0
+23/01/15 00:18:58.755: [0xfa0] EXT: s3eExtGetHash: 0xcc0b4a28 [0x07497538 size=76]
+23/01/15 00:18:58.755: [0xfa0] EXT: initializing extension: s3eThread
+23/01/15 00:18:58.756: [0xfa0] EXT: initializing extension: s3eThread 0x0fbc8120
+23/01/15 00:18:58.756: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x065d8d90 0x065d8db0 0x065d8da0
+23/01/15 00:18:58.757: [0xfa0] GX_VERBOSE: IwGxInitBase()
+23/01/15 00:18:58.757: [0xfa0] EXT: s3eExtGetHash: 0x2bc8e047 [0x07497368 size=72]
+23/01/15 00:18:58.758: [0xfa0] EXT: initializing extension: s3eMetrics
+23/01/15 00:18:58.758: [0xfa0] EXT: s3eExtGetHash: 0xc667a795 [0x074973b8 size=8]
+23/01/15 00:18:58.758: [0xfa0] EXT: initializing extension: s3eDebugHeap
+23/01/15 00:18:58.758: [0xfa0] MEMORY: s3eExtDebugHeapAlloc: 20480000 bytes allocated for system debug heap
+23/01/15 00:18:58.762: [0xfa0] UTIL: IwCallStackInit
+23/01/15 00:18:58.764: [0xfa0] GX_VERBOSE: Registering for S3E_SURFACE_SCREENSIZE callback
+23/01/15 00:18:58.764: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=4
+23/01/15 00:18:58.764: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+23/01/15 00:18:58.764: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+23/01/15 00:18:58.765: [0xfa0] GX: IwGxSetScreenOrient: 0
+23/01/15 00:18:58.779: [0xfa0] IW_GL: EGL: eglGetDisplay returned 0A103028
+23/01/15 00:18:58.789: [0xfa0] IW_GL: eglInitialise succeeded - version 1.4
+23/01/15 00:18:58.789: [0xfa0] IW_GL: S3E_EGL_VERSION: 0104
+23/01/15 00:18:58.790: [0xfa0] IW_GL: S3E_GL_VERSION: 0200
+23/01/15 00:18:58.790: [0xfa0] IW_GL: EGL_VENDOR: Google Inc.
+23/01/15 00:18:58.790: [0xfa0] IW_GL: EGL_VERSION: 1.4 (ANGLE 1.0.0.1275)
+23/01/15 00:18:58.790: [0xfa0] IW_GL:     EGL_EXT_create_context_robustness
+23/01/15 00:18:58.791: [0xfa0] IW_GL:     EGL_ANGLE_d3d_share_handle_client_buffer
+23/01/15 00:18:58.791: [0xfa0] IW_GL:     EGL_ANGLE_query_surface_pointer
+23/01/15 00:18:58.791: [0xfa0] IW_GL:     EGL_ANGLE_surface_d3d_texture_2d_share_handle
+23/01/15 00:18:58.791: [0xfa0] IW_GL:     EGL_NV_post_sub_buffer
+23/01/15 00:18:58.792: [0xfa0] GL_CORE: rejecting config 0: EGL_DEPTH_SIZE < 16
+23/01/15 00:18:58.792: [0xfa0] GL_CORE: rejecting config 4: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+23/01/15 00:18:58.792: [0xfa0] GL_CORE: rejecting config 5 RGB < 565
+23/01/15 00:18:58.792: [0xfa0] GL_CORE: rejecting config 6: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+23/01/15 00:18:58.793: [0xfa0] GL_CORE: rejecting config 7 RGB < 565
+23/01/15 00:18:58.793: [0xfa0] GL_CORE: rejecting config 8: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+23/01/15 00:18:58.793: [0xfa0] GL_CORE: rejecting config 9 RGB < 565
+23/01/15 00:18:58.793: [0xfa0] GL_CORE: rejecting config 10: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+23/01/15 00:18:58.794: [0xfa0] GL_CORE: rejecting config 11 RGB < 565
+23/01/15 00:18:58.794: [0xfa0] GL_CORE: rejecting config 12: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+23/01/15 00:18:58.794: [0xfa0] GL_CORE: rejecting config 13: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+23/01/15 00:18:58.794: [0xfa0] GL_CORE: rejecting config 14: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+23/01/15 00:18:58.795: [0xfa0] GL_CORE: rejecting config 15: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+23/01/15 00:18:58.795: [0xfa0] GL_CORE: EGL: Chose EGL_CONFIG_ID 3
+23/01/15 00:18:58.828: [0xfa0] IW_GL: GL_VENDOR: Google Inc.
+23/01/15 00:18:58.829: [0xfa0] IW_GL: GL_RENDERER: ANGLE (Intel(R) HD Graphics 4600)
+23/01/15 00:18:58.829: [0xfa0] IW_GL: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.1275)
+23/01/15 00:18:58.829: [0xfa0] IW_GL: GL properties reported by driver:
+23/01/15 00:18:58.829: [0xfa0] IW_GL:     GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 20
+23/01/15 00:18:58.830: [0xfa0] IW_GL:     GL_SHADER_COMPILER: 1
+23/01/15 00:18:58.830: [0xfa0] IW_GL:     GL_MAX_VERTEX_ATTRIBS: 16
+23/01/15 00:18:58.830: [0xfa0] IW_GL:     GL_MAX_VERTEX_UNIFORM_VECTORS: 254
+23/01/15 00:18:58.831: [0xfa0] IW_GL:     GL_MAX_VARYING_VECTORS: 10
+23/01/15 00:18:58.831: [0xfa0] IW_GL:     GL_MAX_TEXTURE_IMAGE_UNITS: 16
+23/01/15 00:18:58.831: [0xfa0] IW_GL:     GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS: 4
+23/01/15 00:18:58.831: [0xfa0] IW_GL:     GL_MAX_FRAGMENT_UNIFORM_VECTORS: 221
+23/01/15 00:18:58.832: [0xfa0] IW_GL:     GL_MAX_CUBE_MAP_TEXTURE_SIZE: 8192
+23/01/15 00:18:58.832: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_FORMAT: GL_RGB
+23/01/15 00:18:58.832: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_TYPE: GL_UNSIGNED_SHORT_5_6_5
+23/01/15 00:18:58.832: [0xfa0] IW_GL:     GL_MAX_RENDERBUFFER_SIZE: 8192
+23/01/15 00:18:58.833: [0xfa0] IW_GL:     GL_POINT_SIZE_MAX: -1
+23/01/15 00:18:58.833: [0xfa0] IW_GL:     GL_MAX_TEXTURE_SIZE: 8192
+23/01/15 00:18:58.833: [0xfa0] IW_GL:     GL_MAX_VIEWPORT_DIMS: (8192, 8192)
+23/01/15 00:18:58.833: [0xfa0] IW_GL: Supported GL_EXTENSIONS:
+23/01/15 00:18:58.834: [0xfa0] IW_GL:     GL_OES_packed_depth_stencil
+23/01/15 00:18:58.834: [0xfa0] IW_GL:     GL_OES_element_index_uint
+23/01/15 00:18:58.834: [0xfa0] IW_GL:     GL_OES_texture_half_float_linear
+23/01/15 00:18:58.834: [0xfa0] IW_GL:     GL_NV_fence
+23/01/15 00:18:58.834: [0xfa0] IW_GL:     GL_EXT_read_format_bgra
+23/01/15 00:18:58.835: [0xfa0] IW_GL:     GL_OES_get_program_binary
+23/01/15 00:18:58.835: [0xfa0] IW_GL:     GL_OES_rgb8_rgba8
+23/01/15 00:18:58.835: [0xfa0] IW_GL:     GL_EXT_texture_compression_dxt1
+23/01/15 00:18:58.835: [0xfa0] IW_GL:     GL_ANGLE_texture_compression_dxt3
+23/01/15 00:18:58.835: [0xfa0] IW_GL:     GL_ANGLE_texture_compression_dxt5
+23/01/15 00:18:58.836: [0xfa0] IW_GL:     GL_ARB_texture_env_combine
+23/01/15 00:18:58.836: [0xfa0] IW_GL:     GL_OES_texture_npot
+23/01/15 00:18:58.836: [0xfa0] IW_GL:     GL_EXT_texture_format_BGRA8888
+23/01/15 00:18:58.836: [0xfa0] IW_GL:     GL_OES_texture_half_float
+23/01/15 00:18:58.837: [0xfa0] IW_GL:     GL_ANGLE_framebuffer_multisample
+23/01/15 00:18:58.837: [0xfa0] IW_GL:     GL_ANGLE_framebuffer_blit
+23/01/15 00:18:58.837: [0xfa0] IW_GL:     GL_OES_standard_derivatives
+23/01/15 00:18:58.837: [0xfa0] IW_GL:     GL_OES_texture_float
+23/01/15 00:18:58.838: [0xfa0] IW_GL:     GL_OES_texture_float_linear
+23/01/15 00:18:58.838: [0xfa0] IW_GL:     GL_EXT_texture_filter_anisotropic
+23/01/15 00:18:58.838: [0xfa0] IW_GL:     GL_ANGLE_depth_texture
+23/01/15 00:18:58.838: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=4
+23/01/15 00:18:58.839: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+23/01/15 00:18:58.839: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+23/01/15 00:18:58.869: [0xfa0] GX: Parsing GL driver strings
+23/01/15 00:18:58.870: [0xfa0] GX_VERBOSE: Hardware capabilities:
+23/01/15 00:18:58.871: [0xfa0] FILE: s3eFileOpen('resource_cache/cachedSize.bin', 'rb') succeeded, id=1024 p=0x0fcb186c
+23/01/15 00:18:58.871: [0xfa0] FILE: s3eFileClose h=0x0fcb186c
+23/01/15 00:18:58.872: [0xfa0] UTIL: Added class factory for CIwGxShaderTechnique (hash 0x62ab11c4)
+23/01/15 00:18:58.872: [0xfa0] UTIL: Added class factory for CIwGxCubeMap (hash 0x5474a064)
+23/01/15 00:18:58.872: [0xfa0] GX_VERBOSE: IwGxInit() end
+23/01/15 00:18:58.873: [0xfa0] GX_VERBOSE: _IwGxInitGL()
+23/01/15 00:18:58.873: [0xfa0] GX_VERBOSE: Reported: Max texture stages 20. Max dimensions 8192x8192
+23/01/15 00:18:58.874: [0xfa0] GX_VERBOSE: Default framebuffer binding is 0
+23/01/15 00:18:58.874: [0xfa0] GX_VERBOSE: _IwGxInitGL() end
+23/01/15 00:18:58.875: [0xfa0] UTIL: Added class factory for CIwResTemplateImage (hash 0x4d5ab6b1)
+23/01/15 00:18:58.875: [0xfa0] UTIL: Added class factory for CIwResTemplateMTL (hash 0x3a22b5bb)
+23/01/15 00:18:58.875: [0xfa0] UTIL: Added class factory for CIwResTemplateGROUP (hash 0x4d3980fb)
+23/01/15 00:18:58.876: [0xfa0] UTIL: Added class factory for CIwMaterial (hash 0x2544f997)
+23/01/15 00:18:58.876: [0xfa0] UTIL: Added class factory for CIwResGroup (hash 0xf446397f)
+23/01/15 00:18:58.877: [0xfa0] UTIL: Added class factory for CIwTexture (hash 0x3521f539)
+23/01/15 00:18:58.877: [0xfa0] UTIL: Added class factory for CIwResBuildStyle (hash 0xa59f2593)
+23/01/15 00:18:58.878: [0xfa0] RESMANAGER: Added serialise block for ResGroupMembers
+23/01/15 00:18:58.878: [0xfa0] RESMANAGER: Added serialise block for ResGroupBuildData
+23/01/15 00:18:58.879: [0xfa0] RESMANAGER: Added serialise block for ResGroupChildPaths
+23/01/15 00:18:58.879: [0xfa0] RESMANAGER: Added serialise block for ResGroupHST
+23/01/15 00:18:58.879: [0xfa0] RESMANAGER: Added serialise block for ResGroupDirectory
+23/01/15 00:18:58.880: [0xfa0] RESMANAGER: Added serialise block for ResGroupResources
+23/01/15 00:18:58.880: [0xfa0] RESMANAGER: Added serialise block for ResGroupResourcesOptimised
+23/01/15 00:18:58.881: [0xfa0] RESMANAGER: Setting build style to 'gles1'
+23/01/15 00:18:58.882: [0xfa0] UTIL: Added class factory for CIwGxFont (hash 0xa68776be)
+23/01/15 00:18:58.882: [0xfa0] UTIL: Added class factory for CIwGxFontTTFont (hash 0xc084661d)
+23/01/15 00:18:58.882: [0xfa0] UTIL: Added class factory for CIwResTemplateGXFONT (hash 0xf4d12aa4)
+23/01/15 00:18:58.883: [0xfa0] UTIL: Found 'data-gles1/fonts.group' using path global 'data-gles1'
+23/01/15 00:18:58.883: [0xfa0] FILE: s3eFileAddUserFileSys Version:4
+23/01/15 00:18:58.884: [0xfa0] FILE: new filesystem: drive=11 type=1 ro=1 name=
+23/01/15 00:18:58.884: [0xfa0] FILE: fs[00]: system[rom://] 'd:\Git\Year2\fga2.gt2\SprayAndPray\data'
+23/01/15 00:18:58.884: [0xfa0] FILE: fs[01]: system[ram://] 'd:\Git\Year2\fga2.gt2\SprayAndPray\data-ram'
+23/01/15 00:18:58.885: [0xfa0] FILE: fs[03]: system[raw://] ''
+23/01/15 00:18:58.885: [0xfa0] FILE: fs[04]: system[tmp://] 'C:\Users\ERICPO~1\AppData\Local\Temp\'
+23/01/15 00:18:58.885: [0xfa0] FILE: fs[11]: user
+23/01/15 00:18:58.886: [0xfa0] FILE: listed 5 active filesystems
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/fonts.group not found
+23/01/15 00:18:58.887: [0xfa0] UTIL: Found 'fonts.group' using default path
+23/01/15 00:18:58.888: [0xfa0] FILE: s3eFileOpen('fonts.group', 'r') succeeded, id=1025 p=0x0fcb1988
+23/01/15 00:18:58.889: [0xfa0] FILE: s3eFileClose h=0x0fcb1988
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/fonts/arlrdbd.ttf not found
+23/01/15 00:18:58.892: [0xfa0] UTIL: Found './resources/fonts/ARLRDBD.TTF' using default path
+23/01/15 00:18:58.893: [0xfa0] FILE: s3eFileOpen('./resources/fonts/ARLRDBD.TTF', 'rb') succeeded, id=1026 p=0x0fcb1aa4
+23/01/15 00:18:58.893: [0xfa0] FILE: s3eFileClose h=0x0fcb1aa4
+23/01/15 00:18:58.894: [0xfa0] UTIL: Found 'data-gles1/fonts.group.bin' using path global 'data-gles1'
+23/01/15 00:18:58.895: [0xfa0] FILE: s3eFileOpen('data-gles1/fonts.group.bin', 'wb') succeeded, id=1027 p=0x0fcb1bc0
+23/01/15 00:18:58.895: [0xfa0] UTIL: Found 'data-gles1/fonts.group.bin.txt' using path global 'data-gles1'
+23/01/15 00:18:58.896: [0xfa0] FILE: s3eFileOpen('data-gles1/fonts.group.bin.txt', 'wt') succeeded, id=1028 p=0x0fcb1cdc
+23/01/15 00:18:58.896: [0xfa0] RESMANAGER: Serialising CIwResList of 1 items
+23/01/15 00:18:58.897: [0xfa0] RESMANAGER: Serialising item 0
+23/01/15 00:18:58.897: [0xfa0] RESMANAGER: Wrote item: classname 0xc084661d, name 0x405f4a40
+23/01/15 00:18:58.898: [0xfa0] RESMANAGER: Serialising CIwResList of 1 items
+23/01/15 00:18:58.898: [0xfa0] RESMANAGER: Serialising item 0
+23/01/15 00:18:58.899: [0xfa0] RESMANAGER: Wrote item: classname 0xa68776be, name 0xb203c087
+23/01/15 00:18:58.899: [0xfa0] FILE: s3eFileClose h=0x0fcb1cdc
+23/01/15 00:18:58.899: [0xfa0] FILE: s3eFileClose h=0x0fcb1bc0
+23/01/15 00:18:58.900: [0xfa0] UTIL: Found 'data-gles1/fonts.group.bin.debug' using path global 'data-gles1'
+23/01/15 00:18:58.901: [0xfa0] FILE: s3eFileOpen('data-gles1/fonts.group.bin.debug', 'wb') succeeded, id=1029 p=0x0fcb1df8
+23/01/15 00:18:58.901: [0xfa0] UTIL: Found 'data-gles1/fonts.group.bin.debug.txt' using path global 'data-gles1'
+23/01/15 00:18:58.902: [0xfa0] FILE: s3eFileOpen('data-gles1/fonts.group.bin.debug.txt', 'wt') succeeded, id=1030 p=0x0fcb1f14
+23/01/15 00:18:58.902: [0xfa0] FILE: s3eFileClose h=0x0fcb1f14
+23/01/15 00:18:58.903: [0xfa0] FILE: s3eFileClose h=0x0fcb1df8
+23/01/15 00:18:58.903: [0xfa0] UTIL: Found 'data-gles1/fonts.group.hst' using path global 'data-gles1'
+23/01/15 00:18:58.904: [0xfa0] FILE: s3eFileOpen('data-gles1/fonts.group.hst', 'wb') succeeded, id=1031 p=0x0fcb2030
+23/01/15 00:18:58.905: [0xfa0] FILE: s3eFileClose h=0x0fcb2030
+23/01/15 00:18:58.907: [0xfa0] UTIL: Found 'data-gles1/fonts.group.bin' using path global 'data-gles1'
+23/01/15 00:18:58.907: [0xfa0] FILE: remove fs: 11
+23/01/15 00:18:58.907: [0xfa0] IWCRT: mode wb -> 1
+23/01/15 00:18:58.908: [0xfa0] IWCRT: open 3
+23/01/15 00:18:58.909: [0xfa0] FILE: s3eFileOpen('data-gles1/fonts.group.depend', 'wb') succeeded, id=1000 p=0x0fcafdcc
+23/01/15 00:18:58.909: [0xfa0] IWCRT: close 3
+23/01/15 00:18:58.909: [0xfa0] FILE: s3eFileClose h=0x0fcafdcc
+23/01/15 00:18:58.910: [0xfa0] UTIL: Found 'data-gles1/fonts.group.bin' using path global 'data-gles1'
+23/01/15 00:18:58.911: [0xfa0] FILE: s3eFileOpen('data-gles1/fonts.group.bin', 'rb') succeeded, id=1001 p=0x0fcafee8
+23/01/15 00:18:58.911: [0xfa0] UTIL: Found 'data-gles1/fonts.group.hst' using path global 'data-gles1'
+23/01/15 00:18:58.912: [0xfa0] FILE: s3eFileOpen('data-gles1/fonts.group.hst', 'r') succeeded, id=1002 p=0x0fcb0004
+23/01/15 00:18:58.912: [0xfa0] FILE: s3eFileClose h=0x0fcb0004
+23/01/15 00:18:58.912: [0xfa0] UTIL: Found 'data-gles1/fonts.group.hst' using path global 'data-gles1'
+23/01/15 00:18:58.913: [0xfa0] FILE: s3eFileOpen('data-gles1/fonts.group.hst', 'rb') succeeded, id=1003 p=0x0fcb0120
+23/01/15 00:18:58.913: [0xfa0] FILE: s3eFileClose h=0x0fcb0120
+23/01/15 00:18:58.914: [0xfa0] UTIL: Found 'data-gles1/fonts.group.bin.debug' using path global 'data-gles1'
+23/01/15 00:18:58.914: [0xfa0] UTIL: Found 'data-gles1/fonts.group.bin.debug' using path global 'data-gles1'
+23/01/15 00:18:58.915: [0xfa0] FILE: s3eFileOpen('data-gles1/fonts.group.bin.debug', 'rb') succeeded, id=1004 p=0x0fcb023c
+23/01/15 00:18:58.915: [0xfa0] FILE: s3eFileClose h=0x0fcb023c
+23/01/15 00:18:58.916: [0xfa0] RESMANAGER: Serialising CIwResList of 1 items
+23/01/15 00:18:58.916: [0xfa0] RESMANAGER: Serialising item 0
+23/01/15 00:18:58.916: [0xfa0] RESMANAGER: Read item: classname 0xc084661d, name 0x405f4a40
+23/01/15 00:18:58.917: [0xfa0] RESMANAGER: Serialising CIwResList of 1 items
+23/01/15 00:18:58.917: [0xfa0] RESMANAGER: Serialising item 0
+23/01/15 00:18:58.917: [0xfa0] RESMANAGER: Read item: classname 0xa68776be, name 0xb203c087
+23/01/15 00:18:58.918: [0xfa0] FILE: s3eFileClose h=0x0fcafee8
+23/01/15 00:18:58.920: [0xfa0] UTIL: Found 'data-gles1/images.group' using path global 'data-gles1'
+23/01/15 00:18:58.920: [0xfa0] FILE: s3eFileAddUserFileSys Version:4
+23/01/15 00:18:58.920: [0xfa0] FILE: new filesystem: drive=11 type=1 ro=1 name=
+23/01/15 00:18:58.921: [0xfa0] FILE: fs[00]: system[rom://] 'd:\Git\Year2\fga2.gt2\SprayAndPray\data'
+23/01/15 00:18:58.921: [0xfa0] FILE: fs[01]: system[ram://] 'd:\Git\Year2\fga2.gt2\SprayAndPray\data-ram'
+23/01/15 00:18:58.921: [0xfa0] FILE: fs[03]: system[raw://] ''
+23/01/15 00:18:58.922: [0xfa0] FILE: fs[04]: system[tmp://] 'C:\Users\ERICPO~1\AppData\Local\Temp\'
+23/01/15 00:18:58.922: [0xfa0] FILE: fs[11]: user
+23/01/15 00:18:58.922: [0xfa0] FILE: listed 5 active filesystems
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/images.group not found
+23/01/15 00:18:58.924: [0xfa0] UTIL: Found 'images.group' using default path
+23/01/15 00:18:58.925: [0xfa0] FILE: s3eFileOpen('images.group', 'r') succeeded, id=1005 p=0x0fcb0358
+23/01/15 00:18:58.925: [0xfa0] FILE: s3eFileClose h=0x0fcb0358
+23/01/15 00:18:58.926: [0xfa0] RESMANAGER: Reading asset: ./resources/game/bullet.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/game/bullet.png not found
+23/01/15 00:18:58.927: [0xfa0] UTIL: Found '/resources/game/bullet.png' using default path
+23/01/15 00:18:58.928: [0xfa0] FILE: s3eFileOpen('/resources/game/bullet.png', 'rb') succeeded, id=1006 p=0x0fcb0474
+23/01/15 00:18:58.929: [0xfa0] FILE: s3eFileClose h=0x0fcb0474
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/bullet_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/bullet_mm2.png not found
+23/01/15 00:18:58.933: [0xfa0] RESMANAGER: Reading asset: ./resources/game/enemy.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/game/enemy.png not found
+23/01/15 00:18:58.934: [0xfa0] UTIL: Found '/resources/game/enemy.png' using default path
+23/01/15 00:18:58.935: [0xfa0] FILE: s3eFileOpen('/resources/game/enemy.png', 'rb') succeeded, id=1007 p=0x0fcb0590
+23/01/15 00:18:58.936: [0xfa0] FILE: s3eFileClose h=0x0fcb0590
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/enemy_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/enemy_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/enemy_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/enemy_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/enemy_mm5.png not found
+23/01/15 00:18:58.940: [0xfa0] RESMANAGER: Reading asset: ./resources/game/mover.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/game/mover.png not found
+23/01/15 00:18:58.941: [0xfa0] UTIL: Found '/resources/game/mover.png' using default path
+23/01/15 00:18:58.942: [0xfa0] FILE: s3eFileOpen('/resources/game/mover.png', 'rb') succeeded, id=1008 p=0x0fcb06ac
+23/01/15 00:18:58.944: [0xfa0] FILE: s3eFileClose h=0x0fcb06ac
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/mover_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/mover_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/mover_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/mover_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/mover_mm5.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/mover_mm6.png not found
+23/01/15 00:18:58.948: [0xfa0] RESMANAGER: Reading asset: ./resources/game/mover_pressed.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/game/mover_pressed.png not found
+23/01/15 00:18:58.949: [0xfa0] UTIL: Found '/resources/game/mover_pressed.png' using default path
+23/01/15 00:18:58.950: [0xfa0] FILE: s3eFileOpen('/resources/game/mover_pressed.png', 'rb') succeeded, id=1009 p=0x0fcb07c8
+23/01/15 00:18:58.952: [0xfa0] FILE: s3eFileClose h=0x0fcb07c8
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/mover_pressed_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/mover_pressed_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/mover_pressed_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/mover_pressed_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/mover_pressed_mm5.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/mover_pressed_mm6.png not found
+23/01/15 00:18:58.957: [0xfa0] RESMANAGER: Reading asset: ./resources/game/player.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/game/player.png not found
+23/01/15 00:18:58.958: [0xfa0] UTIL: Found '/resources/game/player.png' using default path
+23/01/15 00:18:58.959: [0xfa0] FILE: s3eFileOpen('/resources/game/player.png', 'rb') succeeded, id=1010 p=0x0fcb08e4
+23/01/15 00:18:58.960: [0xfa0] FILE: s3eFileClose h=0x0fcb08e4
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/player_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/player_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/player_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/player_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/player_mm5.png not found
+23/01/15 00:18:58.963: [0xfa0] RESMANAGER: Reading asset: ./resources/game/player_gun.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/game/player_gun.png not found
+23/01/15 00:18:58.965: [0xfa0] UTIL: Found '/resources/game/player_gun.png' using default path
+23/01/15 00:18:58.965: [0xfa0] FILE: s3eFileOpen('/resources/game/player_gun.png', 'rb') succeeded, id=1011 p=0x0fcb0a00
+23/01/15 00:18:58.966: [0xfa0] FILE: s3eFileClose h=0x0fcb0a00
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/player_gun_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/player_gun_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/player_gun_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/player_gun_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/player_gun_mm5.png not found
+23/01/15 00:18:58.971: [0xfa0] RESMANAGER: Reading asset: ./resources/game/playground.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/game/playground.png not found
+23/01/15 00:18:58.974: [0xfa0] UTIL: Found '/resources/game/playground.png' using default path
+23/01/15 00:18:58.975: [0xfa0] FILE: s3eFileOpen('/resources/game/playground.png', 'rb') succeeded, id=1012 p=0x0fcb0b1c
+23/01/15 00:18:59.028: [0xfa0] FILE: s3eFileClose h=0x0fcb0b1c
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/playground_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/playground_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/playground_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/playground_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/playground_mm5.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/playground_mm6.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/playground_mm7.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/playground_mm8.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/playground_mm9.png not found
+23/01/15 00:18:59.035: [0xfa0] RESMANAGER: Reading asset: ./resources/game/restartbtn_normal.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/game/restartbtn_normal.png not found
+23/01/15 00:18:59.037: [0xfa0] UTIL: Found '/resources/game/restartbtn_normal.png' using default path
+23/01/15 00:18:59.037: [0xfa0] FILE: s3eFileOpen('/resources/game/restartbtn_normal.png', 'rb') succeeded, id=1013 p=0x0fcb0c38
+23/01/15 00:18:59.040: [0xfa0] FILE: s3eFileClose h=0x0fcb0c38
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/restartbtn_normal_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/restartbtn_normal_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/restartbtn_normal_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/restartbtn_normal_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/restartbtn_normal_mm5.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/restartbtn_normal_mm6.png not found
+23/01/15 00:18:59.045: [0xfa0] RESMANAGER: Reading asset: ./resources/game/restartbtn_pressed.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/game/restartbtn_pressed.png not found
+23/01/15 00:18:59.046: [0xfa0] UTIL: Found '/resources/game/restartbtn_pressed.png' using default path
+23/01/15 00:18:59.047: [0xfa0] FILE: s3eFileOpen('/resources/game/restartbtn_pressed.png', 'rb') succeeded, id=1014 p=0x0fcb0d54
+23/01/15 00:18:59.050: [0xfa0] FILE: s3eFileClose h=0x0fcb0d54
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/restartbtn_pressed_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/restartbtn_pressed_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/restartbtn_pressed_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/restartbtn_pressed_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/restartbtn_pressed_mm5.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/restartbtn_pressed_mm6.png not found
+23/01/15 00:18:59.056: [0xfa0] RESMANAGER: Reading asset: ./resources/game/continueplaying.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/game/continueplaying.png not found
+23/01/15 00:18:59.057: [0xfa0] UTIL: Found '/resources/game/continueplaying.png' using default path
+23/01/15 00:18:59.058: [0xfa0] FILE: s3eFileOpen('/resources/game/continueplaying.png', 'rb') succeeded, id=1015 p=0x0fcb0e70
+23/01/15 00:18:59.093: [0xfa0] FILE: s3eFileClose h=0x0fcb0e70
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/continueplaying_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/continueplaying_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/continueplaying_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/continueplaying_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/continueplaying_mm5.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/continueplaying_mm6.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/continueplaying_mm7.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/game/continueplaying_mm8.png not found
+23/01/15 00:18:59.099: [0xfa0] RESMANAGER: Reading asset: ./resources/menu/back.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/menu/back.png not found
+23/01/15 00:18:59.101: [0xfa0] UTIL: Found '/resources/menu/back.png' using default path
+23/01/15 00:18:59.102: [0xfa0] FILE: s3eFileOpen('/resources/menu/back.png', 'rb') succeeded, id=1017 p=0x0fcb10a8
+23/01/15 00:18:59.103: [0xfa0] FILE: s3eFileClose h=0x0fcb10a8
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/back_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/back_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/back_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/back_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/back_mm5.png not found
+23/01/15 00:18:59.107: [0xfa0] RESMANAGER: Reading asset: ./resources/menu/back_pressed.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/menu/back_pressed.png not found
+23/01/15 00:18:59.108: [0xfa0] UTIL: Found '/resources/menu/back_pressed.png' using default path
+23/01/15 00:18:59.109: [0xfa0] FILE: s3eFileOpen('/resources/menu/back_pressed.png', 'rb') succeeded, id=1017 p=0x0fcb10a8
+23/01/15 00:18:59.110: [0xfa0] FILE: s3eFileClose h=0x0fcb10a8
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/back_pressed_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/back_pressed_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/back_pressed_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/back_pressed_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/back_pressed_mm5.png not found
+23/01/15 00:18:59.113: [0xfa0] RESMANAGER: Reading asset: ./resources/menu/menu_background.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/menu/menu_background.png not found
+23/01/15 00:18:59.115: [0xfa0] UTIL: Found '/resources/menu/menu_background.png' using default path
+23/01/15 00:18:59.115: [0xfa0] FILE: s3eFileOpen('/resources/menu/menu_background.png', 'rb') succeeded, id=1018 p=0x0fcb11c4
+23/01/15 00:18:59.138: [0xfa0] FILE: s3eFileClose h=0x0fcb11c4
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/menu_background_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/menu_background_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/menu_background_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/menu_background_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/menu_background_mm5.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/menu_background_mm6.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/menu_background_mm7.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/menu_background_mm8.png not found
+23/01/15 00:18:59.144: [0xfa0] RESMANAGER: Reading asset: ./logo.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/logo.png not found
+23/01/15 00:18:59.146: [0xfa0] UTIL: Found '/logo.png' using default path
+23/01/15 00:18:59.147: [0xfa0] FILE: s3eFileOpen('/logo.png', 'rb') succeeded, id=1019 p=0x0fcb12e0
+23/01/15 00:18:59.156: [0xfa0] FILE: s3eFileClose h=0x0fcb12e0
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path logo_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path logo_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path logo_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path logo_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path logo_mm5.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path logo_mm6.png not found
+23/01/15 00:18:59.162: [0xfa0] RESMANAGER: Reading asset: ./resources/menu/button_play_normal.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/menu/button_play_normal.png not found
+23/01/15 00:18:59.164: [0xfa0] UTIL: Found '/resources/menu/button_play_normal.png' using default path
+23/01/15 00:18:59.165: [0xfa0] FILE: s3eFileOpen('/resources/menu/button_play_normal.png', 'rb') succeeded, id=1020 p=0x0fcb13fc
+23/01/15 00:18:59.171: [0xfa0] FILE: s3eFileClose h=0x0fcb13fc
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/button_play_normal_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/button_play_normal_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/button_play_normal_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/button_play_normal_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/button_play_normal_mm5.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/button_play_normal_mm6.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/button_play_normal_mm7.png not found
+23/01/15 00:18:59.178: [0xfa0] RESMANAGER: Reading asset: ./resources/menu/button_play_pressed.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/menu/button_play_pressed.png not found
+23/01/15 00:18:59.179: [0xfa0] UTIL: Found '/resources/menu/button_play_pressed.png' using default path
+23/01/15 00:18:59.180: [0xfa0] FILE: s3eFileOpen('/resources/menu/button_play_pressed.png', 'rb') succeeded, id=1022 p=0x0fcb1634
+23/01/15 00:18:59.186: [0xfa0] FILE: s3eFileClose h=0x0fcb1634
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/button_play_pressed_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/button_play_pressed_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/button_play_pressed_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/button_play_pressed_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/button_play_pressed_mm5.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/button_play_pressed_mm6.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/button_play_pressed_mm7.png not found
+23/01/15 00:18:59.192: [0xfa0] RESMANAGER: Reading asset: ./resources/menu/menu_bar.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/menu/menu_bar.png not found
+23/01/15 00:18:59.193: [0xfa0] UTIL: Found '/resources/menu/menu_bar.png' using default path
+23/01/15 00:18:59.194: [0xfa0] FILE: s3eFileOpen('/resources/menu/menu_bar.png', 'rb') succeeded, id=1022 p=0x0fcb1634
+23/01/15 00:18:59.196: [0xfa0] FILE: s3eFileClose h=0x0fcb1634
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/menu_bar_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/menu_bar_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/menu_bar_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/menu_bar_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/menu_bar_mm5.png not found
+23/01/15 00:18:59.199: [0xfa0] RESMANAGER: Reading asset: ./resources/menu/settings.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/menu/settings.png not found
+23/01/15 00:18:59.201: [0xfa0] UTIL: Found '/resources/menu/settings.png' using default path
+23/01/15 00:18:59.202: [0xfa0] FILE: s3eFileOpen('/resources/menu/settings.png', 'rb') succeeded, id=1023 p=0x0fcb1750
+23/01/15 00:18:59.203: [0xfa0] FILE: s3eFileClose h=0x0fcb1750
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/settings_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/settings_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/settings_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/settings_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/settings_mm5.png not found
+23/01/15 00:18:59.207: [0xfa0] RESMANAGER: Reading asset: ./resources/menu/settings_pressed.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/menu/settings_pressed.png not found
+23/01/15 00:18:59.208: [0xfa0] UTIL: Found '/resources/menu/settings_pressed.png' using default path
+23/01/15 00:18:59.209: [0xfa0] FILE: s3eFileOpen('/resources/menu/settings_pressed.png', 'rb') succeeded, id=1024 p=0x0fcb186c
+23/01/15 00:18:59.211: [0xfa0] FILE: s3eFileClose h=0x0fcb186c
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/settings_pressed_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/settings_pressed_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/settings_pressed_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/settings_pressed_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/settings_pressed_mm5.png not found
+23/01/15 00:18:59.217: [0xfa0] RESMANAGER: Reading asset: ./resources/menu/checkbox_normal.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/menu/checkbox_normal.png not found
+23/01/15 00:18:59.218: [0xfa0] UTIL: Found '/resources/menu/checkbox_normal.png' using default path
+23/01/15 00:18:59.219: [0xfa0] FILE: s3eFileOpen('/resources/menu/checkbox_normal.png', 'rb') succeeded, id=1025 p=0x0fcb1988
+23/01/15 00:18:59.220: [0xfa0] FILE: s3eFileClose h=0x0fcb1988
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_normal_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_normal_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_normal_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_normal_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_normal_mm5.png not found
+23/01/15 00:18:59.224: [0xfa0] RESMANAGER: Reading asset: ./resources/menu/checkbox_pressed.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/menu/checkbox_pressed.png not found
+23/01/15 00:18:59.226: [0xfa0] UTIL: Found '/resources/menu/checkbox_pressed.png' using default path
+23/01/15 00:18:59.226: [0xfa0] FILE: s3eFileOpen('/resources/menu/checkbox_pressed.png', 'rb') succeeded, id=1026 p=0x0fcb1aa4
+23/01/15 00:18:59.228: [0xfa0] FILE: s3eFileClose h=0x0fcb1aa4
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_pressed_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_pressed_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_pressed_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_pressed_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_pressed_mm5.png not found
+23/01/15 00:18:59.232: [0xfa0] RESMANAGER: Reading asset: ./resources/menu/checkbox_mark.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/menu/checkbox_mark.png not found
+23/01/15 00:18:59.233: [0xfa0] UTIL: Found '/resources/menu/checkbox_mark.png' using default path
+23/01/15 00:18:59.234: [0xfa0] FILE: s3eFileOpen('/resources/menu/checkbox_mark.png', 'rb') succeeded, id=1027 p=0x0fcb1bc0
+23/01/15 00:18:59.235: [0xfa0] FILE: s3eFileClose h=0x0fcb1bc0
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_mark_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_mark_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_mark_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_mark_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/checkbox_mark_mm5.png not found
+23/01/15 00:18:59.238: [0xfa0] RESMANAGER: Reading asset: ./resources/menu/sfx_label.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/menu/sfx_label.png not found
+23/01/15 00:18:59.240: [0xfa0] UTIL: Found '/resources/menu/sfx_label.png' using default path
+23/01/15 00:18:59.240: [0xfa0] FILE: s3eFileOpen('/resources/menu/sfx_label.png', 'rb') succeeded, id=1028 p=0x0fcb1cdc
+23/01/15 00:18:59.244: [0xfa0] FILE: s3eFileClose h=0x0fcb1cdc
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/sfx_label_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/sfx_label_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/sfx_label_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/sfx_label_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/sfx_label_mm5.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/sfx_label_mm6.png not found
+23/01/15 00:18:59.249: [0xfa0] RESMANAGER: Reading asset: ./resources/menu/music_label.png
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/resources/menu/music_label.png not found
+23/01/15 00:18:59.250: [0xfa0] UTIL: Found '/resources/menu/music_label.png' using default path
+23/01/15 00:18:59.251: [0xfa0] FILE: s3eFileOpen('/resources/menu/music_label.png', 'rb') succeeded, id=1029 p=0x0fcb1df8
+23/01/15 00:18:59.258: [0xfa0] FILE: s3eFileClose h=0x0fcb1df8
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/music_label_mm1.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/music_label_mm2.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/music_label_mm3.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/music_label_mm4.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/music_label_mm5.png not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path resources/menu/music_label_mm6.png not found
+23/01/15 00:18:59.264: [0xfa0] UTIL: Found 'data-gles1/images.group.bin' using path global 'data-gles1'
+23/01/15 00:18:59.265: [0xfa0] FILE: s3eFileOpen('data-gles1/images.group.bin', 'wb') succeeded, id=1030 p=0x0fcb1f14
+23/01/15 00:18:59.265: [0xfa0] UTIL: Found 'data-gles1/images.group.bin.txt' using path global 'data-gles1'
+23/01/15 00:18:59.266: [0xfa0] FILE: s3eFileOpen('data-gles1/images.group.bin.txt', 'wt') succeeded, id=1031 p=0x0fcb2030
+23/01/15 00:18:59.266: [0xfa0] RESMANAGER: Serialising CIwResList of 24 items
+23/01/15 00:18:59.267: [0xfa0] RESMANAGER: Serialising item 0
+23/01/15 00:18:59.267: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0xf4fad72d
+23/01/15 00:18:59.267: [0xfa0] RESMANAGER: Serialising item 1
+23/01/15 00:18:59.268: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0xf60b8e3
+23/01/15 00:18:59.268: [0xfa0] RESMANAGER: Serialising item 2
+23/01/15 00:18:59.268: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0xff2508e
+23/01/15 00:18:59.269: [0xfa0] RESMANAGER: Serialising item 3
+23/01/15 00:18:59.269: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0xcd825b43
+23/01/15 00:18:59.269: [0xfa0] RESMANAGER: Serialising item 4
+23/01/15 00:18:59.270: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x14fa6292
+23/01/15 00:18:59.271: [0xfa0] RESMANAGER: Serialising item 5
+23/01/15 00:18:59.271: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0xf9e3393b
+23/01/15 00:18:59.272: [0xfa0] RESMANAGER: Serialising item 6
+23/01/15 00:18:59.296: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0xfe968b2a
+23/01/15 00:18:59.296: [0xfa0] RESMANAGER: Serialising item 7
+23/01/15 00:18:59.297: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x9f13ed56
+23/01/15 00:18:59.297: [0xfa0] RESMANAGER: Serialising item 8
+23/01/15 00:18:59.298: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x219de343
+23/01/15 00:18:59.298: [0xfa0] RESMANAGER: Serialising item 9
+23/01/15 00:18:59.300: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x4aaa849e
+23/01/15 00:18:59.301: [0xfa0] RESMANAGER: Serialising item 10
+23/01/15 00:18:59.301: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x7c947676
+23/01/15 00:18:59.301: [0xfa0] RESMANAGER: Serialising item 11
+23/01/15 00:18:59.302: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x493fe92b
+23/01/15 00:18:59.302: [0xfa0] RESMANAGER: Serialising item 12
+23/01/15 00:18:59.309: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0xa82ce839
+23/01/15 00:18:59.310: [0xfa0] RESMANAGER: Serialising item 13
+23/01/15 00:18:59.310: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x7c9a2e56
+23/01/15 00:18:59.311: [0xfa0] RESMANAGER: Serialising item 14
+23/01/15 00:18:59.311: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x8ffc449e
+23/01/15 00:18:59.312: [0xfa0] RESMANAGER: Serialising item 15
+23/01/15 00:18:59.312: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x2f91238b
+23/01/15 00:18:59.313: [0xfa0] RESMANAGER: Serialising item 16
+23/01/15 00:18:59.313: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x7b8753ee
+23/01/15 00:18:59.314: [0xfa0] RESMANAGER: Serialising item 17
+23/01/15 00:18:59.314: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x1304dc16
+23/01/15 00:18:59.314: [0xfa0] RESMANAGER: Serialising item 18
+23/01/15 00:18:59.315: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x360beecb
+23/01/15 00:18:59.315: [0xfa0] RESMANAGER: Serialising item 19
+23/01/15 00:18:59.315: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x32a10414
+23/01/15 00:18:59.316: [0xfa0] RESMANAGER: Serialising item 20
+23/01/15 00:18:59.316: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x26cdd1c1
+23/01/15 00:18:59.316: [0xfa0] RESMANAGER: Serialising item 21
+23/01/15 00:18:59.317: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0xcfda3976
+23/01/15 00:18:59.317: [0xfa0] RESMANAGER: Serialising item 22
+23/01/15 00:18:59.317: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x62fde375
+23/01/15 00:18:59.318: [0xfa0] RESMANAGER: Serialising item 23
+23/01/15 00:18:59.318: [0xfa0] RESMANAGER: Wrote item: classname 0x3521f539, name 0x71d72445
+23/01/15 00:18:59.319: [0xfa0] FILE: s3eFileClose h=0x0fcb2030
+23/01/15 00:18:59.319: [0xfa0] FILE: s3eFileClose h=0x0fcb1f14
+23/01/15 00:18:59.320: [0xfa0] UTIL: Found 'data-gles1/images.group.bin.debug' using path global 'data-gles1'
+23/01/15 00:18:59.320: [0xfa0] FILE: s3eFileOpen('data-gles1/images.group.bin.debug', 'wb') succeeded, id=1000 p=0x0fcafdcc
+23/01/15 00:18:59.321: [0xfa0] UTIL: Found 'data-gles1/images.group.bin.debug.txt' using path global 'data-gles1'
+23/01/15 00:18:59.322: [0xfa0] FILE: s3eFileOpen('data-gles1/images.group.bin.debug.txt', 'wt') succeeded, id=1001 p=0x0fcafee8
+23/01/15 00:18:59.322: [0xfa0] FILE: s3eFileClose h=0x0fcafee8
+23/01/15 00:18:59.322: [0xfa0] FILE: s3eFileClose h=0x0fcafdcc
+23/01/15 00:18:59.323: [0xfa0] UTIL: Found 'data-gles1/images.group.hst' using path global 'data-gles1'
+23/01/15 00:18:59.323: [0xfa0] FILE: s3eFileOpen('data-gles1/images.group.hst', 'wb') succeeded, id=1002 p=0x0fcb0004
+23/01/15 00:18:59.324: [0xfa0] FILE: s3eFileClose h=0x0fcb0004
+23/01/15 00:18:59.326: [0xfa0] UTIL: Found 'data-gles1/images.group.bin' using path global 'data-gles1'
+23/01/15 00:18:59.326: [0xfa0] FILE: remove fs: 11
+23/01/15 00:18:59.326: [0xfa0] IWCRT: mode wb -> 1
+23/01/15 00:18:59.326: [0xfa0] IWCRT: open 3
+23/01/15 00:18:59.327: [0xfa0] FILE: s3eFileOpen('data-gles1/images.group.depend', 'wb') succeeded, id=1003 p=0x0fcb0120
+23/01/15 00:18:59.328: [0xfa0] IWCRT: close 3
+23/01/15 00:18:59.328: [0xfa0] FILE: s3eFileClose h=0x0fcb0120
+23/01/15 00:18:59.328: [0xfa0] UTIL: Found 'data-gles1/images.group.bin' using path global 'data-gles1'
+23/01/15 00:18:59.329: [0xfa0] FILE: s3eFileOpen('data-gles1/images.group.bin', 'rb') succeeded, id=1004 p=0x0fcb023c
+23/01/15 00:18:59.329: [0xfa0] UTIL: Found 'data-gles1/images.group.hst' using path global 'data-gles1'
+23/01/15 00:18:59.330: [0xfa0] FILE: s3eFileOpen('data-gles1/images.group.hst', 'r') succeeded, id=1005 p=0x0fcb0358
+23/01/15 00:18:59.330: [0xfa0] FILE: s3eFileClose h=0x0fcb0358
+23/01/15 00:18:59.331: [0xfa0] UTIL: Found 'data-gles1/images.group.hst' using path global 'data-gles1'
+23/01/15 00:18:59.331: [0xfa0] FILE: s3eFileOpen('data-gles1/images.group.hst', 'rb') succeeded, id=1006 p=0x0fcb0474
+23/01/15 00:18:59.332: [0xfa0] FILE: s3eFileClose h=0x0fcb0474
+23/01/15 00:18:59.334: [0xfa0] UTIL: Found 'data-gles1/images.group.bin.debug' using path global 'data-gles1'
+23/01/15 00:18:59.335: [0xfa0] UTIL: Found 'data-gles1/images.group.bin.debug' using path global 'data-gles1'
+23/01/15 00:18:59.336: [0xfa0] FILE: s3eFileOpen('data-gles1/images.group.bin.debug', 'rb') succeeded, id=1007 p=0x0fcb0590
+23/01/15 00:18:59.336: [0xfa0] FILE: s3eFileClose h=0x0fcb0590
+23/01/15 00:18:59.336: [0xfa0] RESMANAGER: Serialising CIwResList of 24 items
+23/01/15 00:18:59.337: [0xfa0] RESMANAGER: Serialising item 0
+23/01/15 00:18:59.337: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0xf4fad72d
+23/01/15 00:18:59.338: [0xfa0] RESMANAGER: Serialising item 1
+23/01/15 00:18:59.338: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0xf60b8e3
+23/01/15 00:18:59.339: [0xfa0] RESMANAGER: Serialising item 2
+23/01/15 00:18:59.339: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0xff2508e
+23/01/15 00:18:59.341: [0xfa0] RESMANAGER: Serialising item 3
+23/01/15 00:18:59.342: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0xcd825b43
+23/01/15 00:18:59.343: [0xfa0] RESMANAGER: Serialising item 4
+23/01/15 00:18:59.343: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x14fa6292
+23/01/15 00:18:59.345: [0xfa0] RESMANAGER: Serialising item 5
+23/01/15 00:18:59.346: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0xf9e3393b
+23/01/15 00:18:59.346: [0xfa0] RESMANAGER: Serialising item 6
+23/01/15 00:18:59.347: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0xfe968b2a
+23/01/15 00:18:59.402: [0xfa0] RESMANAGER: Serialising item 7
+23/01/15 00:18:59.403: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x9f13ed56
+23/01/15 00:18:59.404: [0xfa0] RESMANAGER: Serialising item 8
+23/01/15 00:18:59.405: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x219de343
+23/01/15 00:18:59.406: [0xfa0] RESMANAGER: Serialising item 9
+23/01/15 00:18:59.406: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x4aaa849e
+23/01/15 00:18:59.421: [0xfa0] RESMANAGER: Serialising item 10
+23/01/15 00:18:59.421: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x7c947676
+23/01/15 00:18:59.422: [0xfa0] RESMANAGER: Serialising item 11
+23/01/15 00:18:59.422: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x493fe92b
+23/01/15 00:18:59.423: [0xfa0] RESMANAGER: Serialising item 12
+23/01/15 00:18:59.423: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0xa82ce839
+23/01/15 00:18:59.439: [0xfa0] RESMANAGER: Serialising item 13
+23/01/15 00:18:59.439: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x7c9a2e56
+23/01/15 00:18:59.441: [0xfa0] RESMANAGER: Serialising item 14
+23/01/15 00:18:59.442: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x8ffc449e
+23/01/15 00:18:59.448: [0xfa0] RESMANAGER: Serialising item 15
+23/01/15 00:18:59.448: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x2f91238b
+23/01/15 00:18:59.455: [0xfa0] RESMANAGER: Serialising item 16
+23/01/15 00:18:59.455: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x7b8753ee
+23/01/15 00:18:59.457: [0xfa0] RESMANAGER: Serialising item 17
+23/01/15 00:18:59.458: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x1304dc16
+23/01/15 00:18:59.458: [0xfa0] RESMANAGER: Serialising item 18
+23/01/15 00:18:59.459: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x360beecb
+23/01/15 00:18:59.459: [0xfa0] RESMANAGER: Serialising item 19
+23/01/15 00:18:59.460: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x32a10414
+23/01/15 00:18:59.461: [0xfa0] RESMANAGER: Serialising item 20
+23/01/15 00:18:59.461: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x26cdd1c1
+23/01/15 00:18:59.462: [0xfa0] RESMANAGER: Serialising item 21
+23/01/15 00:18:59.462: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0xcfda3976
+23/01/15 00:18:59.463: [0xfa0] RESMANAGER: Serialising item 22
+23/01/15 00:18:59.463: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x62fde375
+23/01/15 00:18:59.465: [0xfa0] RESMANAGER: Serialising item 23
+23/01/15 00:18:59.465: [0xfa0] RESMANAGER: Read item: classname 0x3521f539, name 0x71d72445
+23/01/15 00:18:59.467: [0xfa0] FILE: s3eFileClose h=0x0fcb023c
+23/01/15 00:18:59.468: [0xfa0] UTIL: Added class factory for CIwSoundData (hash 0xd5610dab)
+23/01/15 00:18:59.468: [0xfa0] UTIL: Added class factory for CIwSoundDataADPCM (hash 0x430758f0)
+23/01/15 00:18:59.468: [0xfa0] UTIL: Added class factory for CIwSoundGroup (hash 0x81c24cbe)
+23/01/15 00:18:59.469: [0xfa0] UTIL: Added class factory for CIwSoundSpec (hash 0xd569853c)
+23/01/15 00:18:59.469: [0xfa0] UTIL: Found 'data-gles1/audio.group' using path global 'data-gles1'
+23/01/15 00:18:59.469: [0xfa0] FILE: s3eFileAddUserFileSys Version:4
+23/01/15 00:18:59.470: [0xfa0] FILE: new filesystem: drive=11 type=1 ro=1 name=
+23/01/15 00:18:59.470: [0xfa0] FILE: fs[00]: system[rom://] 'd:\Git\Year2\fga2.gt2\SprayAndPray\data'
+23/01/15 00:18:59.470: [0xfa0] FILE: fs[01]: system[ram://] 'd:\Git\Year2\fga2.gt2\SprayAndPray\data-ram'
+23/01/15 00:18:59.470: [0xfa0] FILE: fs[03]: system[raw://] ''
+23/01/15 00:18:59.471: [0xfa0] FILE: fs[04]: system[tmp://] 'C:\Users\ERICPO~1\AppData\Local\Temp\'
+23/01/15 00:18:59.471: [0xfa0] FILE: fs[11]: user
+23/01/15 00:18:59.471: [0xfa0] FILE: listed 5 active filesystems
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/audio.group not found
+23/01/15 00:18:59.473: [0xfa0] UTIL: Found 'audio.group' using default path
+23/01/15 00:18:59.474: [0xfa0] FILE: s3eFileOpen('audio.group', 'r') succeeded, id=1008 p=0x0fcb06ac
+23/01/15 00:18:59.474: [0xfa0] FILE: s3eFileClose h=0x0fcb06ac
+23/01/15 00:18:59.475: [0xfa0] RESMANAGER: Reading asset: ./bgm_ingame.wav
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/bgm_ingame.wav not found
+23/01/15 00:18:59.476: [0xfa0] UTIL: Found '/bgm_ingame.wav' using default path
+23/01/15 00:18:59.477: [0xfa0] FILE: s3eFileOpen('/bgm_ingame.wav', 'rb') succeeded, id=1009 p=0x0fcb07c8
+23/01/15 00:18:59.477: [0xfa0] FILE: s3eFileClose h=0x0fcb07c8
+23/01/15 00:18:59.478: [0xfa0] RESMANAGER: Reading asset: ./bgm_menu.wav
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/bgm_menu.wav not found
+23/01/15 00:18:59.479: [0xfa0] UTIL: Found '/bgm_menu.wav' using default path
+23/01/15 00:18:59.480: [0xfa0] FILE: s3eFileOpen('/bgm_menu.wav', 'rb') succeeded, id=1010 p=0x0fcb08e4
+23/01/15 00:18:59.481: [0xfa0] FILE: s3eFileClose h=0x0fcb08e4
+23/01/15 00:18:59.481: [0xfa0] RESMANAGER: Reading asset: ./tank_shoot.wav
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/tank_shoot.wav not found
+23/01/15 00:18:59.483: [0xfa0] UTIL: Found '/tank_shoot.wav' using default path
+23/01/15 00:18:59.484: [0xfa0] FILE: s3eFileOpen('/tank_shoot.wav', 'rb') succeeded, id=1011 p=0x0fcb0a00
+23/01/15 00:18:59.484: [0xfa0] FILE: s3eFileClose h=0x0fcb0a00
+23/01/15 00:18:59.484: [0xfa0] RESMANAGER: Reading asset: ./enemy_hit.wav
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/enemy_hit.wav not found
+23/01/15 00:18:59.486: [0xfa0] UTIL: Found '/enemy_hit.wav' using default path
+23/01/15 00:18:59.487: [0xfa0] FILE: s3eFileOpen('/enemy_hit.wav', 'rb') succeeded, id=1012 p=0x0fcb0b1c
+23/01/15 00:18:59.487: [0xfa0] FILE: s3eFileClose h=0x0fcb0b1c
+23/01/15 00:18:59.487: [0xfa0] RESMANAGER: Reading asset: ./enemy_dead.wav
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/enemy_dead.wav not found
+23/01/15 00:18:59.489: [0xfa0] UTIL: Found '/enemy_dead.wav' using default path
+23/01/15 00:18:59.490: [0xfa0] FILE: s3eFileOpen('/enemy_dead.wav', 'rb') succeeded, id=1013 p=0x0fcb0c38
+23/01/15 00:18:59.490: [0xfa0] FILE: s3eFileClose h=0x0fcb0c38
+23/01/15 00:18:59.490: [0xfa0] RESMANAGER: Reading asset: ./tank_hit.wav
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileGetFileInt - Path data-gles1/tank_hit.wav not found
+23/01/15 00:18:59.492: [0xfa0] UTIL: Found '/tank_hit.wav' using default path
+23/01/15 00:18:59.493: [0xfa0] FILE: s3eFileOpen('/tank_hit.wav', 'rb') succeeded, id=1014 p=0x0fcb0d54
+23/01/15 00:18:59.494: [0xfa0] FILE: s3eFileClose h=0x0fcb0d54
+23/01/15 00:18:59.495: [0xfa0] UTIL: Found 'data-gles1/audio.group.bin' using path global 'data-gles1'
+23/01/15 00:18:59.496: [0xfa0] FILE: s3eFileOpen('data-gles1/audio.group.bin', 'wb') succeeded, id=1015 p=0x0fcb0e70
+23/01/15 00:18:59.496: [0xfa0] UTIL: Found 'data-gles1/audio.group.bin.txt' using path global 'data-gles1'
+23/01/15 00:18:59.497: [0xfa0] FILE: s3eFileOpen('data-gles1/audio.group.bin.txt', 'wt') succeeded, id=1017 p=0x0fcb10a8
+23/01/15 00:18:59.497: [0xfa0] RESMANAGER: Serialising CIwResList of 6 items
+23/01/15 00:18:59.497: [0xfa0] RESMANAGER: Serialising item 0
+23/01/15 00:18:59.498: [0xfa0] RESMANAGER: Wrote item: classname 0xd5610dab, name 0xc59d6c4b
+23/01/15 00:18:59.498: [0xfa0] RESMANAGER: Serialising item 1
+23/01/15 00:18:59.499: [0xfa0] RESMANAGER: Wrote item: classname 0xd5610dab, name 0xeacc1fcf
+23/01/15 00:18:59.499: [0xfa0] RESMANAGER: Serialising item 2
+23/01/15 00:18:59.499: [0xfa0] RESMANAGER: Wrote item: classname 0xd5610dab, name 0xc47554ff
+23/01/15 00:18:59.500: [0xfa0] RESMANAGER: Serialising item 3
+23/01/15 00:18:59.500: [0xfa0] RESMANAGER: Wrote item: classname 0xd5610dab, name 0xd13e52c7
+23/01/15 00:18:59.500: [0xfa0] RESMANAGER: Serialising item 4
+23/01/15 00:18:59.501: [0xfa0] RESMANAGER: Wrote item: classname 0xd5610dab, name 0xf9066710
+23/01/15 00:18:59.501: [0xfa0] RESMANAGER: Serialising item 5
+23/01/15 00:18:59.501: [0xfa0] RESMANAGER: Wrote item: classname 0xd5610dab, name 0xbcb65897
+23/01/15 00:18:59.501: [0xfa0] RESMANAGER: Serialising CIwResList of 2 items
+23/01/15 00:18:59.502: [0xfa0] RESMANAGER: Serialising item 0
+23/01/15 00:18:59.502: [0xfa0] RESMANAGER: Wrote item: classname 0x81c24cbe, name 0xff58e86
+23/01/15 00:18:59.502: [0xfa0] RESMANAGER: Serialising item 1
+23/01/15 00:18:59.502: [0xfa0] RESMANAGER: Wrote item: classname 0x81c24cbe, name 0x57d69fe5
+23/01/15 00:18:59.503: [0xfa0] RESMANAGER: Serialising CIwResList of 6 items
+23/01/15 00:18:59.503: [0xfa0] RESMANAGER: Serialising item 0
+23/01/15 00:18:59.503: [0xfa0] RESMANAGER: Wrote item: classname 0xd569853c, name 0xc59d6c4b
+23/01/15 00:18:59.503: [0xfa0] RESMANAGER: Serialising item 1
+23/01/15 00:18:59.504: [0xfa0] RESMANAGER: Wrote item: classname 0xd569853c, name 0xeacc1fcf
+23/01/15 00:18:59.504: [0xfa0] RESMANAGER: Serialising item 2
+23/01/15 00:18:59.504: [0xfa0] RESMANAGER: Wrote item: classname 0xd569853c, name 0xc47554ff
+23/01/15 00:18:59.504: [0xfa0] RESMANAGER: Serialising item 3
+23/01/15 00:18:59.504: [0xfa0] RESMANAGER: Wrote item: classname 0xd569853c, name 0xd13e52c7
+23/01/15 00:18:59.505: [0xfa0] RESMANAGER: Serialising item 4
+23/01/15 00:18:59.505: [0xfa0] RESMANAGER: Wrote item: classname 0xd569853c, name 0xf9066710
+23/01/15 00:18:59.505: [0xfa0] RESMANAGER: Serialising item 5
+23/01/15 00:18:59.506: [0xfa0] RESMANAGER: Wrote item: classname 0xd569853c, name 0xbcb65897
+23/01/15 00:18:59.506: [0xfa0] FILE: s3eFileClose h=0x0fcb10a8
+23/01/15 00:18:59.506: [0xfa0] FILE: s3eFileClose h=0x0fcb0e70
+23/01/15 00:18:59.507: [0xfa0] UTIL: Found 'data-gles1/audio.group.bin.debug' using path global 'data-gles1'
+23/01/15 00:18:59.507: [0xfa0] FILE: s3eFileOpen('data-gles1/audio.group.bin.debug', 'wb') succeeded, id=1017 p=0x0fcb10a8
+23/01/15 00:18:59.508: [0xfa0] UTIL: Found 'data-gles1/audio.group.bin.debug.txt' using path global 'data-gles1'
+23/01/15 00:18:59.508: [0xfa0] FILE: s3eFileOpen('data-gles1/audio.group.bin.debug.txt', 'wt') succeeded, id=1018 p=0x0fcb11c4
+23/01/15 00:18:59.508: [0xfa0] FILE: s3eFileClose h=0x0fcb11c4
+23/01/15 00:18:59.509: [0xfa0] FILE: s3eFileClose h=0x0fcb10a8
+23/01/15 00:18:59.509: [0xfa0] UTIL: Found 'data-gles1/audio.group.hst' using path global 'data-gles1'
+23/01/15 00:18:59.510: [0xfa0] FILE: s3eFileOpen('data-gles1/audio.group.hst', 'wb') succeeded, id=1019 p=0x0fcb12e0
+23/01/15 00:18:59.510: [0xfa0] FILE: s3eFileClose h=0x0fcb12e0
+23/01/15 00:18:59.813: [0xfa0] UTIL: Found 'data-gles1/audio.group.bin' using path global 'data-gles1'
+23/01/15 00:18:59.813: [0xfa0] FILE: remove fs: 11
+23/01/15 00:18:59.813: [0xfa0] IWCRT: mode wb -> 1
+23/01/15 00:18:59.813: [0xfa0] IWCRT: open 3
+23/01/15 00:18:59.814: [0xfa0] FILE: s3eFileOpen('data-gles1/audio.group.depend', 'wb') succeeded, id=1020 p=0x0fcb13fc
+23/01/15 00:18:59.815: [0xfa0] IWCRT: close 3
+23/01/15 00:18:59.815: [0xfa0] FILE: s3eFileClose h=0x0fcb13fc
+23/01/15 00:18:59.816: [0xfa0] UTIL: Found 'data-gles1/audio.group.bin' using path global 'data-gles1'
+23/01/15 00:18:59.817: [0xfa0] FILE: s3eFileOpen('data-gles1/audio.group.bin', 'rb') succeeded, id=1022 p=0x0fcb1634
+23/01/15 00:18:59.818: [0xfa0] UTIL: Found 'data-gles1/audio.group.hst' using path global 'data-gles1'
+23/01/15 00:18:59.819: [0xfa0] FILE: s3eFileOpen('data-gles1/audio.group.hst', 'r') succeeded, id=1023 p=0x0fcb1750
+23/01/15 00:18:59.819: [0xfa0] FILE: s3eFileClose h=0x0fcb1750
+23/01/15 00:18:59.819: [0xfa0] UTIL: Found 'data-gles1/audio.group.hst' using path global 'data-gles1'
+23/01/15 00:18:59.820: [0xfa0] FILE: s3eFileOpen('data-gles1/audio.group.hst', 'rb') succeeded, id=1023 p=0x0fcb1750
+23/01/15 00:18:59.820: [0xfa0] FILE: s3eFileClose h=0x0fcb1750
+23/01/15 00:18:59.821: [0xfa0] UTIL: Found 'data-gles1/audio.group.bin.debug' using path global 'data-gles1'
+23/01/15 00:18:59.821: [0xfa0] UTIL: Found 'data-gles1/audio.group.bin.debug' using path global 'data-gles1'
+23/01/15 00:18:59.822: [0xfa0] FILE: s3eFileOpen('data-gles1/audio.group.bin.debug', 'rb') succeeded, id=1024 p=0x0fcb186c
+23/01/15 00:18:59.822: [0xfa0] FILE: s3eFileClose h=0x0fcb186c
+23/01/15 00:18:59.822: [0xfa0] RESMANAGER: Serialising CIwResList of 6 items
+23/01/15 00:18:59.823: [0xfa0] RESMANAGER: Serialising item 0
+23/01/15 00:18:59.823: [0xfa0] RESMANAGER: Read item: classname 0xd5610dab, name 0xc59d6c4b
+23/01/15 00:18:59.823: [0xfa0] RESMANAGER: Serialising item 1
+23/01/15 00:18:59.823: [0xfa0] RESMANAGER: Read item: classname 0xd5610dab, name 0xeacc1fcf
+23/01/15 00:18:59.824: [0xfa0] RESMANAGER: Serialising item 2
+23/01/15 00:18:59.824: [0xfa0] RESMANAGER: Read item: classname 0xd5610dab, name 0xc47554ff
+23/01/15 00:18:59.825: [0xfa0] RESMANAGER: Serialising item 3
+23/01/15 00:18:59.825: [0xfa0] RESMANAGER: Read item: classname 0xd5610dab, name 0xd13e52c7
+23/01/15 00:18:59.825: [0xfa0] RESMANAGER: Serialising item 4
+23/01/15 00:18:59.825: [0xfa0] RESMANAGER: Read item: classname 0xd5610dab, name 0xf9066710
+23/01/15 00:18:59.826: [0xfa0] RESMANAGER: Serialising item 5
+23/01/15 00:18:59.826: [0xfa0] RESMANAGER: Read item: classname 0xd5610dab, name 0xbcb65897
+23/01/15 00:18:59.826: [0xfa0] RESMANAGER: Serialising CIwResList of 2 items
+23/01/15 00:18:59.826: [0xfa0] RESMANAGER: Serialising item 0
+23/01/15 00:18:59.826: [0xfa0] RESMANAGER: Read item: classname 0x81c24cbe, name 0xff58e86
+23/01/15 00:18:59.827: [0xfa0] RESMANAGER: Serialising item 1
+23/01/15 00:18:59.827: [0xfa0] RESMANAGER: Read item: classname 0x81c24cbe, name 0x57d69fe5
+23/01/15 00:18:59.827: [0xfa0] RESMANAGER: Serialising CIwResList of 6 items
+23/01/15 00:18:59.827: [0xfa0] RESMANAGER: Serialising item 0
+23/01/15 00:18:59.828: [0xfa0] RESMANAGER: Read item: classname 0xd569853c, name 0xc59d6c4b
+23/01/15 00:18:59.828: [0xfa0] RESMANAGER: Serialising item 1
+23/01/15 00:18:59.828: [0xfa0] RESMANAGER: Read item: classname 0xd569853c, name 0xeacc1fcf
+23/01/15 00:18:59.828: [0xfa0] RESMANAGER: Serialising item 2
+23/01/15 00:18:59.829: [0xfa0] RESMANAGER: Read item: classname 0xd569853c, name 0xc47554ff
+23/01/15 00:18:59.829: [0xfa0] RESMANAGER: Serialising item 3
+23/01/15 00:18:59.829: [0xfa0] RESMANAGER: Read item: classname 0xd569853c, name 0xd13e52c7
+23/01/15 00:18:59.829: [0xfa0] RESMANAGER: Serialising item 4
+23/01/15 00:18:59.830: [0xfa0] RESMANAGER: Read item: classname 0xd569853c, name 0xf9066710
+23/01/15 00:18:59.830: [0xfa0] RESMANAGER: Serialising item 5
+23/01/15 00:18:59.830: [0xfa0] RESMANAGER: Read item: classname 0xd569853c, name 0xbcb65897
+23/01/15 00:18:59.831: [0xfa0] FILE: s3eFileClose h=0x0fcb1634
+23/01/15 00:18:59.831: [0xfa0] FILE: s3eFileOpen('settings.dat', 'r') succeeded, id=1025 p=0x0fcb1988
+23/01/15 00:18:59.832: [0xfa0] FILE: s3eFileClose h=0x0fcb1988
+23/01/15 00:18:59.832: [0xfa0] SOUND: Playing enemy_hit 0795D100
+23/01/15 00:18:59.832: [0xfa0] SOUND: Play: ch=00 numSampl=16544 repeat=1 loopfrom=0
+23/01/15 00:18:59.833: [0xfa0] SOUND: s3eSoundStart: started=0
+23/01/15 00:18:59.833: [0xfa0] SOUND: Sound starting...
+23/01/15 00:18:59.833: [0xfa0] FILE: s3eFileOpen('highscore.dat', 'r') succeeded, id=1026 p=0x0fcb1aa4
+23/01/15 00:18:59.834: [0xfa0] FILE: s3eFileClose h=0x0fcb1aa4
+23/01/15 00:18:59.834: [0xfa0] SOUND: Playing bgm_menu 07849500
+23/01/15 00:18:59.834: [0xfa0] SOUND: Play: ch=01 numSampl=520704 repeat=-1 loopfrom=0
+23/01/15 00:18:59.834: [0xfa0] SOUND: s3eSoundStart: started=1
+23/01/15 00:18:59.836: [0xfa0] GX_FONT_VERBOSE: Uploaded cache
+23/01/15 00:18:59.836: [0xfa0] GX_VERBOSE: Generating default shader: #define FRAGMENT 
+#define UV0_STREAM 
+#define COL_STREAM 
+#define LIGHT_EMISSIVE 
+#define LIGHT_AMBIENT 
+#define TEX0 
+23/01/15 00:18:59.838: [0xfa0] GX_VERBOSE: Generating default shader: #define UV0_STREAM 
+#define COL_STREAM 
+#define LIGHT_EMISSIVE 
+#define LIGHT_AMBIENT 
+23/01/15 00:19:04.738: [0x17a0] SOUND: CChannelPCM::GenerateAudio(): stopped
+23/01/15 00:19:04.765: [0xfa0] SOUND: Playing bgm_ingame 077A3150
+23/01/15 00:19:04.766: [0xfa0] SOUND: Play: ch=00 numSampl=340416 repeat=-1 loopfrom=0
+23/01/15 00:19:04.766: [0xfa0] SOUND: s3eSoundStart: started=1
+23/01/15 00:19:04.783: [0xfa0] GX_FONT_VERBOSE: Uploaded cache
+23/01/15 00:19:04.783: [0xfa0] GX_VERBOSE: Generating default shader: #define FRAGMENT 
+#define UV0_STREAM 
+#define LIGHT_EMISSIVE 
+#define LIGHT_AMBIENT 
+#define TEX0 
+#define ALPHA_TEST 7
+23/01/15 00:19:04.784: [0xfa0] GX_VERBOSE: Generating default shader: #define UV0_STREAM 
+#define LIGHT_EMISSIVE 
+#define LIGHT_AMBIENT 
+23/01/15 00:19:05.865: [0xfa0] GX_FONT_VERBOSE: Uploaded cache
+23/01/15 00:19:06.900: [0xfa0] GX_FONT_VERBOSE: Uploaded cache
+23/01/15 00:19:07.931: [0xfa0] GX_FONT_VERBOSE: Uploaded cache
+23/01/15 00:19:08.981: [0xfa0] GX_FONT_VERBOSE: Uploaded cache
+23/01/15 00:19:08.981: [0xfa0] GX_VERBOSE: Generating default shader: #define FRAGMENT 
+#define COL_STREAM 
+#define LIGHT_EMISSIVE 
+#define LIGHT_AMBIENT 
+23/01/15 00:19:08.982: [0xfa0] GX_VERBOSE: Generating default shader: #define COL_STREAM 
+#define LIGHT_EMISSIVE 
+#define LIGHT_AMBIENT 
+23/01/15 00:19:12.179: [0xfa0] SOUND: Playing tank_hit 0796E2A0
+23/01/15 00:19:12.180: [0xfa0] SOUND: Play: ch=01 numSampl=17888 repeat=1 loopfrom=0
+23/01/15 00:19:12.180: [0xfa0] SOUND: s3eSoundStart: started=1
+23/01/15 00:19:12.647: [0xfa0] DEVICE: In Handle suspend
+23/01/15 00:19:12.648: [0xfa0] DEVICE: Calling S3E_DEVICE_PAUSE callback
+23/01/15 00:19:12.673: [0x17a0] SOUND: CChannelPCM::GenerateAudio(): stopped
+23/01/15 00:19:12.699: [0xfa0] FILE: s3eFileOpen('savedstate.dat', 'wb') succeeded, id=1027 p=0x0fcb1bc0
+23/01/15 00:19:12.699: [0xfa0] FILE: s3eFileClose h=0x0fcb1bc0
+23/01/15 00:19:12.699: [0xfa0] THREAD: Suspending all other app threads
+23/01/15 00:19:12.700: [0xfa0] THREAD: All other app threads suspended
+23/01/15 00:19:12.700: [0xfa0] SOUND: suspending
+23/01/15 00:19:12.700: [0xfa0] SOUND: s3eSoundStop: started=1
+23/01/15 00:19:12.711: [0x2cbc] AUDIO: s3eAudioPause.
+23/01/15 00:19:12.712: [0x2cbc] VIDEO: s3eVideoDoPause
+23/01/15 00:19:12.713: [0xfa0] DEVICE: signalling g_SuspendedNotify [0x000002e8]
+23/01/15 00:19:12.714: [0xfa0] THREAD: Thread suspended, waiting for wakeup
+23/01/15 00:19:13.760: [0x2cbc] THREAD: Resuming all threads
+23/01/15 00:19:13.761: [0x2cbc] DEVICE: Waiting for app threads to resume
+23/01/15 00:19:13.761: [0x2cbc] VIDEO: s3eVideoDoResumeWin
+23/01/15 00:19:13.762: [0xfa0] DEVICE: Calling S3E_DEVICE_UNPAUSE callback
+23/01/15 00:19:13.763: [0xfa0] FILE: s3eFileOpen('settings.dat', 'r') succeeded, id=1028 p=0x0fcb1cdc
+23/01/15 00:19:13.764: [0xfa0] FILE: s3eFileClose h=0x0fcb1cdc
+23/01/15 00:19:13.764: [0xfa0] SOUND: Playing enemy_hit 0795D100
+23/01/15 00:19:13.764: [0xfa0] SOUND: Play: ch=00 numSampl=16544 repeat=1 loopfrom=0
+23/01/15 00:19:13.765: [0xfa0] SOUND: s3eSoundStart: started=1
+23/01/15 00:19:13.765: [0xfa0] FILE: s3eFileOpen('savedstate.dat', 'rb') succeeded, id=1029 p=0x0fcb1df8
+23/01/15 00:19:13.765: [0xfa0] FILE: s3eFileClose h=0x0fcb1df8
+23/01/15 00:19:13.766: [0xfa0] SOUND: Playing bgm_ingame 077A3150
+23/01/15 00:19:13.766: [0xfa0] SOUND: Play: ch=01 numSampl=340416 repeat=-1 loopfrom=0
+23/01/15 00:19:13.766: [0xfa0] SOUND: s3eSoundStart: started=1
+23/01/15 00:19:13.767: [0xfa0] DEVICE: done HandleSuspend
+23/01/15 00:19:14.345: [0xfa0] SOUND: Playing tank_hit 0796E2A0
+23/01/15 00:19:14.346: [0xfa0] SOUND: Play: ch=00 numSampl=17888 repeat=1 loopfrom=0
+23/01/15 00:19:14.346: [0xfa0] SOUND: s3eSoundStart: started=1

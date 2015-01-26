@@ -1,0 +1,37 @@
+includepath SoundEngine/h
+includepath SoundEngine/source
+
+files
+{
+    (SoundEngine/h)
+    IwResHandlerWAV.h
+    IwSound.h
+    IwSoundADPCM.h
+    IwSoundManager.h
+    IwSoundData.h
+    IwSoundGroup.h
+    IwSoundInst.h
+    IwSoundParams.h
+    IwSoundPCM.h
+    IwSoundSpec.h
+
+    (SoundEngine/source)
+    IwResHandlerWAV.cpp
+    IwSoundADPCM.cpp
+    IwSoundManager.cpp
+    IwSoundData.cpp
+    IwSoundGroup.cpp
+    IwSoundInst.cpp
+    IwSoundParams.cpp
+    IwSoundPCM.cpp
+    IwSoundSpec.cpp
+
+    [Docs]
+    (SoundEngine/docs)
+    iwsound.config.txt
+}
+
+subprojects
+{
+    iwutil
+}

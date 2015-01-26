@@ -1,0 +1,99 @@
+-o
+Release_SprayAndPray_vc12_gcc_arm/SprayAndPray.elf
+Release_SprayAndPray_vc12_gcc_arm/AudioManager.obj
+Release_SprayAndPray_vc12_gcc_arm/Background.obj
+Release_SprayAndPray_vc12_gcc_arm/Bullet.obj
+Release_SprayAndPray_vc12_gcc_arm/Button.obj
+Release_SprayAndPray_vc12_gcc_arm/Checkbox.obj
+Release_SprayAndPray_vc12_gcc_arm/CollisionManager.obj
+Release_SprayAndPray_vc12_gcc_arm/Enemy.obj
+Release_SprayAndPray_vc12_gcc_arm/Game.obj
+Release_SprayAndPray_vc12_gcc_arm/GameSprite.obj
+Release_SprayAndPray_vc12_gcc_arm/GameView.obj
+Release_SprayAndPray_vc12_gcc_arm/GuiElement.obj
+Release_SprayAndPray_vc12_gcc_arm/GuiTexture.obj
+Release_SprayAndPray_vc12_gcc_arm/ImageManager.obj
+Release_SprayAndPray_vc12_gcc_arm/Input.obj
+Release_SprayAndPray_vc12_gcc_arm/Iw2DSceneGraph.obj
+Release_SprayAndPray_vc12_gcc_arm/Iw2DSceneGraphCore.obj
+Release_SprayAndPray_vc12_gcc_arm/IwResHandlerWAV.obj
+Release_SprayAndPray_vc12_gcc_arm/IwSoundADPCM.obj
+Release_SprayAndPray_vc12_gcc_arm/IwSoundData.obj
+Release_SprayAndPray_vc12_gcc_arm/IwSoundGroup.obj
+Release_SprayAndPray_vc12_gcc_arm/IwSoundInst.obj
+Release_SprayAndPray_vc12_gcc_arm/IwSoundManager.obj
+Release_SprayAndPray_vc12_gcc_arm/IwSoundPCM.obj
+Release_SprayAndPray_vc12_gcc_arm/IwSoundParams.obj
+Release_SprayAndPray_vc12_gcc_arm/IwSoundSpec.obj
+Release_SprayAndPray_vc12_gcc_arm/IwTween.obj
+Release_SprayAndPray_vc12_gcc_arm/Menu.obj
+Release_SprayAndPray_vc12_gcc_arm/PVRTexTool_interface.obj
+Release_SprayAndPray_vc12_gcc_arm/Player.obj
+Release_SprayAndPray_vc12_gcc_arm/SprayAndPray.obj
+Release_SprayAndPray_vc12_gcc_arm/Sprite.obj
+Release_SprayAndPray_vc12_gcc_arm/Trackpad.obj
+Release_SprayAndPray_vc12_gcc_arm/View.obj
+Release_SprayAndPray_vc12_gcc_arm/definitions.obj
+-Wl,--gc-sections
+-Wl,--as-needed
+-march=armv6
+-mfloat-abi=soft
+-mthumb-interwork
+-pie
+-Wl,--entry=_IwMain
+-Wl,--no-enum-size-warning
+-Wl,-Tlinker_script
+-lc
+-lm
+-Wl,-Map="Release_SprayAndPray_vc12_gcc_arm//SprayAndPray.map"
+-Wl,--start-group
+-liwutil
+-ljpeg
+-lz
+-lpng
+-liw2d
+-liwgx
+-liwgl
+-liwgeom
+-liwresmanager
+-liwgxfont_ttf
+-ltiniconv
+-liwnui
+-liwui
+-ls3eNUI_iwui
+-ls3e_cpp
+-ls3e
+-ls3e_api_iwgl
+-Wl,--end-group
+-L
+"c:/program files/marmalade/7.4/modules/iwutil/lib/arm/v6/nofpu/soft"
+-L
+"c:/program files/marmalade/7.4/modules/third_party/libjpeg/lib/arm/v6/nofpu/soft"
+-L
+"c:/program files/marmalade/7.4/modules/third_party/zlib/lib/arm/v6/nofpu/soft"
+-L
+"c:/program files/marmalade/7.4/modules/third_party/libpng/lib/arm/v6/nofpu/soft"
+-L
+"c:/program files/marmalade/7.4/modules/iw2d/lib/arm/v6/nofpu/soft"
+-L
+"c:/program files/marmalade/7.4/modules/iwgx/atitools"
+-L
+"c:/program files/marmalade/7.4/modules/iwgx/lib/arm/v6/nofpu/soft"
+-L
+"c:/program files/marmalade/7.4/modules/iwgl/lib/arm/v6/nofpu/soft"
+-L
+"c:/program files/marmalade/7.4/modules/iwgeom/lib/arm/v6/nofpu/soft"
+-L
+"c:/program files/marmalade/7.4/modules/iwresmanager/lib/arm/v6/nofpu/soft"
+-L
+"c:/program files/marmalade/7.4/modules/iwgxfont/lib/arm/v6/nofpu/soft"
+-L
+"c:/program files/marmalade/7.4/modules/third_party/tiniconv/lib/arm/v6/nofpu/soft"
+-L
+"c:/program files/marmalade/7.4/modules/iwnui/lib/arm/v6/nofpu/soft"
+-L
+"c:/program files/marmalade/7.4/modules/iwui/lib/arm/v6/nofpu/soft"
+-L
+"c:/program files/marmalade/7.4/extensions/s3enui/lib/arm/v6/nofpu/soft"
+-L
+"c:/program files/marmalade/7.4/s3e/lib/arm/v6/nofpu/soft"

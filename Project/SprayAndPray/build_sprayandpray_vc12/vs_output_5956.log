@@ -1,0 +1,63 @@
+1>------ Build started: Project: SprayAndPray_vc12, Configuration: x86 Debug Win32 ------
+1>  Performing Custom Build Tools
+1>  msg: option 'default-buildenv' overridden by command line
+1>  C:\Program Files\Marmalade\7.4\s3e\makefile_builder\mkb.py d:/Git/Year2/fga2.gt2/SprayAndPray/SprayAndPray.mkb --buildenv=VC12 --default-buildenv=vc12 --msvc-project
+1>  Building project: d:/Git/Year2/fga2.gt2/SprayAndPray/SprayAndPray.mkb
+1>d:/Git/Year2/fga2.gt2/SprayAndPray/SprayAndPray.mkb(65): warning : filename case does not match the filesystem: d:/git/year2/fga2.gt2/sprayandpray/SoundEngine.mkf
+1>  Done, with 1 warnings.
+1>  done
+1>  AudioManager.cpp
+1>  Background.cpp
+1>  Bullet.cpp
+1>  Button.cpp
+1>  CollisionManager.cpp
+1>  Enemy.cpp
+1>  Game.cpp
+1>  GameSprite.cpp
+1>  GameView.cpp
+1>d:\git\year2\fga2.gt2\sprayandpray\enemy.cpp(35): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+1>d:\git\year2\fga2.gt2\sprayandpray\button.cpp(45): warning C4244: 'argument' : conversion from 'int32' to 'float', possible loss of data
+1>  GuiElement.cpp
+1>d:\git\year2\fga2.gt2\sprayandpray\game.cpp(49): warning C4244: '=' : conversion from 'uint32' to 'float', possible loss of data
+1>d:\git\year2\fga2.gt2\sprayandpray\game.cpp(50): warning C4244: '=' : conversion from 'uint32' to 'float', possible loss of data
+1>d:\git\year2\fga2.gt2\sprayandpray\game.cpp(89): warning C4244: '=' : conversion from 'uint32' to 'float', possible loss of data
+1>d:\git\year2\fga2.gt2\sprayandpray\game.cpp(90): warning C4244: '=' : conversion from 'uint32' to 'float', possible loss of data
+1>  ImageManager.cpp
+1>  Input.cpp
+1>  Iw2DSceneGraph.cpp
+1>  Iw2DSceneGraphCore.cpp
+1>  IwResHandlerWAV.cpp
+1>  IwSoundADPCM.cpp
+1>  IwSoundData.cpp
+1>  IwSoundGroup.cpp
+1>  IwSoundInst.cpp
+1>  IwSoundManager.cpp
+1>  IwSoundPCM.cpp
+1>  IwSoundParams.cpp
+1>  IwSoundSpec.cpp
+1>  IwTween.cpp
+1>  Menu.cpp
+1>  PVRTexTool_interface.cpp
+1>  Player.cpp
+1>  SprayAndPray.cpp
+1>  Sprite.cpp
+1>  Trackpad.cpp
+1>  View.cpp
+1>  definitions.cpp
+1>d:\git\year2\fga2.gt2\sprayandpray\player.cpp(54): warning C4244: 'argument' : conversion from 'int32' to 'float', possible loss of data
+1>d:\git\year2\fga2.gt2\sprayandpray\player.cpp(61): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+1>d:\git\year2\fga2.gt2\sprayandpray\player.cpp(63): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+1>d:\git\year2\fga2.gt2\sprayandpray\trackpad.cpp(51): warning C4244: 'argument' : conversion from 'int32' to 'float', possible loss of data
+1>d:\git\year2\fga2.gt2\sprayandpray\view.cpp(32): warning C4244: 'initializing' : conversion from 'uint32' to 'float', possible loss of data
+1>d:\git\year2\fga2.gt2\sprayandpray\view.cpp(33): warning C4244: 'initializing' : conversion from 'uint32' to 'float', possible loss of data
+1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+1>AudioManager.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+1>LIBCMTD.lib(sscanf.obj) : warning LNK4006: _vsscanf already defined in s3e_d.lib(iwcrt_win32.obj); second definition ignored
+1>LIBCMTD.lib(strtoq.obj) : warning LNK4006: _strtof already defined in s3e_d.lib(iwcrt_common.obj); second definition ignored
+1>     Creating library Debug_SprayAndPray_vc12_x86\SprayAndPray.lib and object Debug_SprayAndPray_vc12_x86\SprayAndPray.exp
+1>Debug_SprayAndPray_vc12_x86\SprayAndPray.s86 : warning LNK4088: image being generated due to /FORCE option; image may not run
+1>  SprayAndPray_vc12.vcxproj -> d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_vc12_x86\SprayAndPray.s86
+1>  "C:\Program Files\Marmalade\7.4\s3e\python\python.exe" .\process_map.py "d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_vc12_x86\SprayAndPray.s86"
+1>  "s3e_plink" -l "d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_vc12_x86\SprayAndPray.s86" 
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

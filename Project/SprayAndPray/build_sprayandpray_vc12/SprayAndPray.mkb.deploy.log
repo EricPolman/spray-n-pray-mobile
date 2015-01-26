@@ -1,0 +1,44 @@
+Doing: "Package" on Configuration Default to android
+
+running s3e_deploy commandline: "C:\Program Files\Marmalade\7.4\s3e\python\python.exe" "C:\Program Files\Marmalade\7.4\s3e\deploy\main.py" "-n" "--os" "android" "--arch" "arm" "--gcc" "d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\deploy_temp.py"
+
+CWD=d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12
+
+Marmalade Deployment Tool v1.3
+
+Copyright (C) 2001-2012 Marmalade
+
+calling C:\Program Files\Marmalade\7.4\s3e\bin\iwlicense.exe --platcheck=android
+
+deploying SprayAndPray [0.0.1] [arm-release] for 'android' to folder: 'deployments\default\android\release\arm\intermediate_files'
+
+--> copying files ...
+
+generating temporary keypair: C:\Users\ERICPO~1\AppData\Local\Temp\temp_s3e_key.txt
+
+ [execute] openssl.exe
+
+Copying splash deployments\default\android\release\arm\generated_images\s3e_splash_320x320_0.jpg to assets
+
+--> updating s3e binary: compression=lzma signing=1 config-embedding=1
+
+ [execute] s3e_mod.exe
+
+--> performing custom deployment steps for: 'android'
+
+Including Android extension: s3eNUI
+
+Reading public key from C:\Users\ERICPO~1\AppData\Local\Temp\temp_s3e_key.txt ...
+
+public key embedded in loader
+
+Adding external jar: c:/program files/marmalade/7.4/extensions/s3enui/lib/android/s3eNUI.jar
+
+ [execute] aapt.exe
+
+AndroidManifest.xml:44: error: Error parsing XML: not well-formed (invalid token)
+
+ERROR: Error running aapt.exe (1)
+
+***ERROR***
+

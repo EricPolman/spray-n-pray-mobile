@@ -1,0 +1,16 @@
+CIwResGroup
+{
+    name "fonts"
+	
+	CIwGxFont
+	{
+		//name for font resource
+		name "ArialBold8"
+
+		//file name of ttf
+		ttf "./resources/fonts/ARLRDBD.TTF"
+
+		//font face point size
+		ttfPointSize 16
+	}
+}

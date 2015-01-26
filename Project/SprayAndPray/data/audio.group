@@ -1,0 +1,61 @@
+CIwResGroup
+{
+    name "audio"
+	
+	./bgm_ingame.wav
+	./bgm_menu.wav
+	./tank_shoot.wav
+	./enemy_hit.wav
+	./enemy_dead.wav
+	./tank_hit.wav
+
+	CIwSoundGroup
+	{
+		name music
+	}
+	CIwSoundGroup
+	{
+		name effects
+	}
+	
+	CIwSoundSpec
+	{
+		name bgm_ingame
+		data bgm_ingame
+		group music
+		
+		loop true
+	}
+	CIwSoundSpec
+	{
+		name bgm_menu
+		data bgm_menu
+		group music
+		
+		loop true
+	}
+	CIwSoundSpec
+	{
+		name tank_shoot
+		data tank_shoot
+		group effects
+	}
+	CIwSoundSpec
+	{
+		name enemy_hit
+		data enemy_hit
+		group effects
+	}
+	CIwSoundSpec
+	{
+		name enemy_dead
+		data enemy_dead
+		group effects
+	}
+	CIwSoundSpec
+	{
+		name tank_hit
+		data tank_hit
+		group effects
+	}
+}

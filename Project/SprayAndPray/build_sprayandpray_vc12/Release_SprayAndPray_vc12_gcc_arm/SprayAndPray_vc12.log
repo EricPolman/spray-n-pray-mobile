@@ -1,0 +1,165 @@
+﻿Build started 23-1-2015 00:23:03.
+     1>Project "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Marmalade\7.4\s3e\bin\CL.exe /c /I"c:/program files/marmalade/7.4/modules/iwutil/h" /I"c:/program files/marmalade/7.4/modules/third_party/libjpeg/h" /I"c:/program files/marmalade/7.4/modules/third_party/zlib/h" /I"c:/program files/marmalade/7.4/modules/third_party/libpng/h" /I"c:/program files/marmalade/7.4/modules/iw2dscenegraphcore/h" /I"c:/program files/marmalade/7.4/modules/iw2dscenegraph/h" /I"c:/program files/marmalade/7.4/modules/iw2d/h" /I"c:/program files/marmalade/7.4/modules/iwgx/h" /I"c:/program files/marmalade/7.4/modules/iwgl/h" /I"c:/program files/marmalade/7.4/modules/iwgeom/h" /I"c:/program files/marmalade/7.4/modules/iwresmanager/h" /I"c:/program files/marmalade/7.4/extensions/pvrtextool/h" /I"c:/program files/marmalade/7.4/modules/iwgxfont/h" /I"c:/program files/marmalade/7.4/modules/third_party/tiniconv/source" /I"c:/program files/marmalade/7.4/modules/iwnui/h" /I"c:/program files/marmalade/7.4/extensions/s3enui/h" /I"c:/program files/marmalade/7.4/modules/iwui/h" /I"c:/program files/marmalade/7.4/modules/iwtween/h" /Id:/git/year2/fga2.gt2/sprayandpray/SoundEngine/h /Id:/git/year2/fga2.gt2/sprayandpray/SoundEngine/source /I"c:/program files/marmalade/7.4/s3e/h" /I"c:/program files/marmalade/7.4/s3e/h/ext" /I"c:/program files/marmalade/7.4/s3e/h/std" /I"c:/program files/marmalade/7.4/s3e/h/std/c++" /I"c:/program files/marmalade/7.4/s3e/h/ext_legacy" /I"c:/program files/marmalade/7.4/s3e/h/legacy" /I. /Z7 /nologo /W3 /WX- /MP /O2 /Oi /Oy- /X /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release_SprayAndPray_vc12_gcc_arm\\" /Fd"Release_SprayAndPray_vc12_gcc_arm\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /S3Eproject /J /Fe"s3e-custom-tool='c:/program files/marmalade/7.4/s3e/gcc/win32/bin/arm-none-eabi-gcc.exe' tooltype=gcc_compiler -funsigned-char -fno-strict-aliasing -fno-stack-protector -fno-short-enums -fshort-wchar -Wall -fomit-frame-pointer -fmessage-length=0 -Wno-unused -Wno-parentheses -save-temps -ffunction-sections -mstructure-size-boundary=8 -march=armv6 -mfloat-abi=soft -mthumb-interwork -mword-relocations -Wno-switch -Wno-psabi -fvisibility=hidden -nostdinc -fPIC --cppflag=-Wno-reorder --cppflag=-fvisibility-inlines-hidden --cppflag=-fno-exceptions --cppflag=-nostdinc++ -O3" /FD  /FI"d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\temp_defines_release.h" ..\AudioManager.cpp ..\Background.cpp ..\Bullet.cpp ..\Button.cpp ..\Checkbox.cpp ..\CollisionManager.cpp ..\Enemy.cpp ..\Game.cpp ..\GameSprite.cpp ..\GameView.cpp ..\GuiElement.cpp ..\GuiTexture.cpp ..\ImageManager.cpp ..\Input.cpp ..\Menu.cpp ..\Player.cpp ..\SoundEngine\source\IwResHandlerWAV.cpp ..\SoundEngine\source\IwSoundADPCM.cpp ..\SoundEngine\source\IwSoundData.cpp ..\SoundEngine\source\IwSoundGroup.cpp ..\SoundEngine\source\IwSoundInst.cpp ..\SoundEngine\source\IwSoundManager.cpp ..\SoundEngine\source\IwSoundPCM.cpp ..\SoundEngine\source\IwSoundParams.cpp ..\SoundEngine\source\IwSoundSpec.cpp ..\SprayAndPray.cpp ..\Sprite.cpp ..\Trackpad.cpp ..\View.cpp ..\definitions.cpp "c:\program files\marmalade\7.4\extensions\pvrtextool\interface\PVRTexTool_interface.cpp" "c:\program files\marmalade\7.4\modules\iw2dscenegraph\source\Iw2DSceneGraph.cpp" "c:\program files\marmalade\7.4\modules\iw2dscenegraphcore\source\Iw2DSceneGraphCore.cpp" "c:\program files\marmalade\7.4\modules\iwtween\source\IwTween.cpp"
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\AudioManager.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\Background.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\Bullet.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\Button.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\Checkbox.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\CollisionManager.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\Enemy.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\Game.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\GameSprite.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\GameView.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\GuiElement.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\GuiTexture.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\ImageManager.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\Input.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\Menu.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\Player.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\SoundEngine\source\IwResHandlerWAV.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\SoundEngine\source\IwSoundADPCM.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\SoundEngine\source\IwSoundData.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\SoundEngine\source\IwSoundGroup.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\SoundEngine\source\IwSoundInst.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\SoundEngine\source\IwSoundManager.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\SoundEngine\source\IwSoundPCM.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\SoundEngine\source\IwSoundParams.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\SoundEngine\source\IwSoundSpec.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\SprayAndPray.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\Sprite.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\Trackpad.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\View.cpp ...
+         ARM Compiling(GCC) D:\Git\Year2\fga2.gt2\SprayAndPray\definitions.cpp ...
+         ARM Compiling(GCC) c:\program files\marmalade\7.4\extensions\pvrtextool\interface\PVRTexTool_interface.cpp ...
+         ARM Compiling(GCC) c:\program files\marmalade\7.4\modules\iw2dscenegraph\source\Iw2DSceneGraph.cpp ...
+         ARM Compiling(GCC) c:\program files\marmalade\7.4\modules\iw2dscenegraphcore\source\Iw2DSceneGraphCore.cpp ...
+         ARM Compiling(GCC) c:\program files\marmalade\7.4\modules\iwtween\source\IwTween.cpp ...
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(23) [In file included from]
+         c:/program files/marmalade/7.4/modules/iwtween/h/IwTween.h( In member function 'IwTween) :CTween* IwTween::CTweenManager::Tween(float, ...)': (col )
+         
+     1>c:/program files/marmalade/7.4/modules/iwtween/h/IwTween.h(377): warning : 'tween.IwTween::CTween::m_ElapsedTime' may be used uninitialized in this function [-Wmaybe-uninitialized] (col 7)
+         
+         class CTween
+         ^
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(234) : note: 'tween.IwTween::CTween::m_ElapsedTime' was declared here (col 12)
+         
+         CTween tween(spec);
+         ^
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(23) [In file included from]
+     1>c:/program files/marmalade/7.4/modules/iwtween/h/IwTween.h(377): warning : '*((void*)& tween +36)' may be used uninitialized in this function [-Wmaybe-uninitialized] (col 7)
+         
+         class CTween
+         ^
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(234) : note: '*((void*)& tween +36)' was declared here (col 12)
+         
+         CTween tween(spec);
+         ^
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(23) [In file included from]
+     1>c:/program files/marmalade/7.4/modules/iwtween/h/IwTween.h(377): warning : '*((void*)& tween +37)' may be used uninitialized in this function [-Wmaybe-uninitialized] (col 7)
+         
+         class CTween
+         ^
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(234) : note: '*((void*)& tween +37)' was declared here (col 12)
+         
+         CTween tween(spec);
+         ^
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(23) [In file included from]
+     1>c:/program files/marmalade/7.4/modules/iwtween/h/IwTween.h(377): warning : '*((void*)& tween +38)' may be used uninitialized in this function [-Wmaybe-uninitialized] (col 7)
+         
+         class CTween
+         ^
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(234) : note: '*((void*)& tween +38)' was declared here (col 12)
+         
+         CTween tween(spec);
+         ^
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(23) [In file included from]
+     1>c:/program files/marmalade/7.4/modules/iwtween/h/IwTween.h(377): warning : '*((void*)& tween +39)' may be used uninitialized in this function [-Wmaybe-uninitialized] (col 7)
+         
+         class CTween
+         ^
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(234) : note: '*((void*)& tween +39)' was declared here (col 12)
+         
+         CTween tween(spec);
+         ^
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(23) [In file included from]
+     1>c:/program files/marmalade/7.4/modules/iwtween/h/IwTween.h(377): warning : 'tween.IwTween::CTween::m_NumCycles' may be used uninitialized in this function [-Wmaybe-uninitialized] (col 7)
+         
+         class CTween
+         ^
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(234) : note: 'tween.IwTween::CTween::m_NumCycles' was declared here (col 12)
+         
+         CTween tween(spec);
+         ^
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(23) [In file included from]
+     1>c:/program files/marmalade/7.4/modules/iwtween/h/IwTween.h(377): warning : 'tween.IwTween::CTween::m_List' may be used uninitialized in this function [-Wmaybe-uninitialized] (col 7)
+         
+         class CTween
+         ^
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(234) : note: 'tween.IwTween::CTween::m_List' was declared here (col 12)
+         
+         CTween tween(spec);
+         ^
+         c:/program files/marmalade/7.4/s3e/h/std/c++/stl/_alloc.h(68) [In file included from]
+         c:/program files/marmalade/7.4/s3e/h/std/c++/stl/_vector.h(40) [from]
+         c:/program files/marmalade/7.4/s3e/h/std/c++/vector(40) [from]
+         c:/program files/marmalade/7.4/modules/iwtween/h/IwTween.h(27) [from]
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(23) [from]
+     1>c:/program files/marmalade/7.4/s3e/h/std/c++/stl/_construct.h(97): warning : 'value' may be used uninitialized in this function [-Wmaybe-uninitialized] (col 5)
+         
+         _STLP_PLACEMENT_NEW (__p) _T1(__val);
+         ^
+         c:/program files/marmalade/7.4/modules/iwtween/source/IwTween.cpp(256) : note: 'value' was declared here (col 13)
+         
+         int value;
+         ^
+       Link:
+         C:\Program Files\Marmalade\7.4\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release_SprayAndPray_vc12_gcc_arm\SprayAndPray.s3e" /INCREMENTAL:NO /NOLOGO /LIBPATH:"c:/program files/marmalade/7.4/modules/iwutil/lib/arm/v6/nofpu/soft" /LIBPATH:"c:/program files/marmalade/7.4/modules/third_party/libjpeg/lib/arm/v6/nofpu/soft" /LIBPATH:"c:/program files/marmalade/7.4/modules/third_party/zlib/lib/arm/v6/nofpu/soft" /LIBPATH:"c:/program files/marmalade/7.4/modules/third_party/libpng/lib/arm/v6/nofpu/soft" /LIBPATH:"c:/program files/marmalade/7.4/modules/iw2d/lib/arm/v6/nofpu/soft" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgx/atitools" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgx/lib/arm/v6/nofpu/soft" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgl/lib/arm/v6/nofpu/soft" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgeom/lib/arm/v6/nofpu/soft" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwresmanager/lib/arm/v6/nofpu/soft" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgxfont/lib/arm/v6/nofpu/soft" /LIBPATH:"c:/program files/marmalade/7.4/modules/third_party/tiniconv/lib/arm/v6/nofpu/soft" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwnui/lib/arm/v6/nofpu/soft" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwui/lib/arm/v6/nofpu/soft" /LIBPATH:"c:/program files/marmalade/7.4/extensions/s3enui/lib/arm/v6/nofpu/soft" /LIBPATH:"c:/program files/marmalade/7.4/s3e/lib/arm/v6/nofpu/soft" /NODEFAULTLIB:libcmt /MANIFEST:NO /PDB:"Release_SprayAndPray_vc12_gcc_arm\SprayAndPray.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release_SprayAndPray_vc12_gcc_arm\SprayAndPray.lib" /MACHINE:X86  /include:_IwMain /include:_raise /include:_DllEntryPoint@12 /force:multiple /COMMENT:"s3e-custom-tool='c:/program files/marmalade/7.4/s3e/gcc/win32/bin/arm-none-eabi-g++.exe' tooltype=gcc_linker -Wl,--gc-sections -Wl,--as-needed -march=armv6 -mfloat-abi=soft -mthumb-interwork -pie -Wl,--entry=_IwMain -Wl,--no-enum-size-warning -Wl,-Tlinker_script -lc -lm -Wl,-Map='Release_SprayAndPray_vc12_gcc_arm\/SprayAndPray.map' -Wl,--start-group -liwutil -ljpeg -lz -lpng -liw2d -liwgx -liwgl -liwgeom -liwresmanager -liwgxfont_ttf -ltiniconv -liwnui -liwui -ls3eNUI_iwui -ls3e_cpp -ls3e -ls3e_api_iwgl -Wl,--end-group --plink:--arch=armv6 --plink:--compiler=rvct --plink:-u" /DLL Release_SprayAndPray_vc12_gcc_arm\AudioManager.obj
+         Release_SprayAndPray_vc12_gcc_arm\Background.obj
+         Release_SprayAndPray_vc12_gcc_arm\Bullet.obj
+         Release_SprayAndPray_vc12_gcc_arm\Button.obj
+         Release_SprayAndPray_vc12_gcc_arm\Checkbox.obj
+         Release_SprayAndPray_vc12_gcc_arm\CollisionManager.obj
+         Release_SprayAndPray_vc12_gcc_arm\Enemy.obj
+         Release_SprayAndPray_vc12_gcc_arm\Game.obj
+         Release_SprayAndPray_vc12_gcc_arm\GameSprite.obj
+         Release_SprayAndPray_vc12_gcc_arm\GameView.obj
+         Release_SprayAndPray_vc12_gcc_arm\GuiElement.obj
+         Release_SprayAndPray_vc12_gcc_arm\GuiTexture.obj
+         Release_SprayAndPray_vc12_gcc_arm\ImageManager.obj
+         Release_SprayAndPray_vc12_gcc_arm\Input.obj
+         Release_SprayAndPray_vc12_gcc_arm\Iw2DSceneGraph.obj
+         Release_SprayAndPray_vc12_gcc_arm\Iw2DSceneGraphCore.obj
+         Release_SprayAndPray_vc12_gcc_arm\IwResHandlerWAV.obj
+         Release_SprayAndPray_vc12_gcc_arm\IwSoundADPCM.obj
+         Release_SprayAndPray_vc12_gcc_arm\IwSoundData.obj
+         Release_SprayAndPray_vc12_gcc_arm\IwSoundGroup.obj
+         Release_SprayAndPray_vc12_gcc_arm\IwSoundInst.obj
+         Release_SprayAndPray_vc12_gcc_arm\IwSoundManager.obj
+         Release_SprayAndPray_vc12_gcc_arm\IwSoundPCM.obj
+         Release_SprayAndPray_vc12_gcc_arm\IwSoundParams.obj
+         Release_SprayAndPray_vc12_gcc_arm\IwSoundSpec.obj
+         Release_SprayAndPray_vc12_gcc_arm\IwTween.obj
+         Release_SprayAndPray_vc12_gcc_arm\Menu.obj
+         Release_SprayAndPray_vc12_gcc_arm\PVRTexTool_interface.obj
+         Release_SprayAndPray_vc12_gcc_arm\Player.obj
+         Release_SprayAndPray_vc12_gcc_arm\SprayAndPray.obj
+         Release_SprayAndPray_vc12_gcc_arm\Sprite.obj
+         Release_SprayAndPray_vc12_gcc_arm\Trackpad.obj
+         Release_SprayAndPray_vc12_gcc_arm\View.obj
+         Release_SprayAndPray_vc12_gcc_arm\definitions.obj
+         ARM Linking(GCC) ...
+         SprayAndPray_vc12.vcxproj -> D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Release_SprayAndPray_vc12_gcc_arm\SprayAndPray.s3e
+       PostBuildEvent:
+         echo "C:\Program Files\Marmalade\7.4\s3e\python\python.exe" .\process_map.py "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Release_SprayAndPray_vc12_gcc_arm\SprayAndPray.s3e"
+         chdir /d "c:\program files\marmalade\7.4\s3e\tools"
+         "C:\Program Files\Marmalade\7.4\s3e\python\python.exe" .\process_map.py "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Release_SprayAndPray_vc12_gcc_arm\SprayAndPray.s3e"
+         
+         :VCEnd
+         "C:\Program Files\Marmalade\7.4\s3e\python\python.exe" .\process_map.py "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Release_SprayAndPray_vc12_gcc_arm\SprayAndPray.s3e"
+     1>Done Building Project "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.29

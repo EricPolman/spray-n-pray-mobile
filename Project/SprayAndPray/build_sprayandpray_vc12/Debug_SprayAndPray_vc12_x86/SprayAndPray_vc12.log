@@ -1,0 +1,68 @@
+﻿Build started 23-1-2015 00:18:45.
+     1>Project "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Marmalade\7.4\s3e\bin\CL.exe /c /I"c:/program files/marmalade/7.4/modules/iwutil/h" /I"c:/program files/marmalade/7.4/modules/third_party/libjpeg/h" /I"c:/program files/marmalade/7.4/modules/third_party/zlib/h" /I"c:/program files/marmalade/7.4/modules/third_party/libpng/h" /I"c:/program files/marmalade/7.4/modules/iw2dscenegraphcore/h" /I"c:/program files/marmalade/7.4/modules/iw2dscenegraph/h" /I"c:/program files/marmalade/7.4/modules/iw2d/h" /I"c:/program files/marmalade/7.4/modules/iwgx/h" /I"c:/program files/marmalade/7.4/modules/iwgl/h" /I"c:/program files/marmalade/7.4/modules/iwgeom/h" /I"c:/program files/marmalade/7.4/modules/iwresmanager/h" /I"c:/program files/marmalade/7.4/extensions/pvrtextool/h" /I"c:/program files/marmalade/7.4/modules/iwgxfont/h" /I"c:/program files/marmalade/7.4/modules/third_party/tiniconv/source" /I"c:/program files/marmalade/7.4/modules/iwnui/h" /I"c:/program files/marmalade/7.4/extensions/s3enui/h" /I"c:/program files/marmalade/7.4/modules/iwui/h" /I"c:/program files/marmalade/7.4/modules/iwtween/h" /Id:/git/year2/fga2.gt2/sprayandpray/SoundEngine/h /Id:/git/year2/fga2.gt2/sprayandpray/SoundEngine/source /I"c:/program files/marmalade/7.4/s3e/h" /I"c:/program files/marmalade/7.4/s3e/h/ext" /I"c:/program files/marmalade/7.4/s3e/h/std" /I"c:/program files/marmalade/7.4/s3e/h/std/c++" /I"c:/program files/marmalade/7.4/s3e/h/ext_legacy" /I"c:/program files/marmalade/7.4/s3e/h/legacy" /I. /ZI /nologo /W3 /WX- /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_SprayAndPray_vc12_x86\\" /Fd"Debug_SprayAndPray_vc12_x86\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /S3Eproject /J /FI"d:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\temp_defines_debug.h" ..\Game.cpp ..\SprayAndPray.cpp
+         Game.cpp
+         SprayAndPray.cpp
+     1>d:\git\year2\fga2.gt2\sprayandpray\game.cpp(71): warning C4244: '=' : conversion from 'uint32' to 'float', possible loss of data
+     1>d:\git\year2\fga2.gt2\sprayandpray\game.cpp(72): warning C4244: '=' : conversion from 'uint32' to 'float', possible loss of data
+     1>d:\git\year2\fga2.gt2\sprayandpray\game.cpp(167): warning C4244: '=' : conversion from 'uint32' to 'float', possible loss of data
+     1>d:\git\year2\fga2.gt2\sprayandpray\game.cpp(168): warning C4244: '=' : conversion from 'uint32' to 'float', possible loss of data
+       Link:
+         C:\Program Files\Marmalade\7.4\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug_SprayAndPray_vc12_x86\SprayAndPray.s86" /INCREMENTAL /NOLOGO /LIBPATH:"c:/program files/marmalade/7.4/modules/iwutil/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/third_party/libjpeg/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/third_party/zlib/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/third_party/libpng/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iw2d/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgx/atitools" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgx/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgl/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgeom/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwresmanager/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwgxfont/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/third_party/tiniconv/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwnui/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/modules/iwui/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/extensions/s3enui/lib/x86" /LIBPATH:"c:/program files/marmalade/7.4/s3e/lib/x86" vc6_compat.lib iwutil_d.lib jpeg_d.lib z_d.lib png_d.lib iw2d_d.lib ATI_Compress_MT_VC7.lib iwgx_d.lib iwgl_d.lib iwgeom_d.lib iwresmanager_d.lib iwgxfont_ttf_d.lib tiniconv_d.lib iwnui_d.lib iwui_d.lib s3eNUI_iwui_d.lib s3e_cpp_d.lib s3e_d.lib s3e_api_iwgl.lib /NODEFAULTLIB:libcmt /MANIFEST:NO /DEBUG /PDB:"Debug_SprayAndPray_vc12_x86\SprayAndPray.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /ENTRY:"DllEntryPoint" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_SprayAndPray_vc12_x86\SprayAndPray.lib" /MACHINE:X86  /include:_IwMain /include:_raise /include:_DllEntryPoint@12 /force:multiple /DLL Debug_SprayAndPray_vc12_x86\AudioManager.obj
+         Debug_SprayAndPray_vc12_x86\Background.obj
+         Debug_SprayAndPray_vc12_x86\Bullet.obj
+         Debug_SprayAndPray_vc12_x86\Button.obj
+         Debug_SprayAndPray_vc12_x86\Checkbox.obj
+         Debug_SprayAndPray_vc12_x86\CollisionManager.obj
+         Debug_SprayAndPray_vc12_x86\Enemy.obj
+         Debug_SprayAndPray_vc12_x86\Game.obj
+         Debug_SprayAndPray_vc12_x86\GameSprite.obj
+         Debug_SprayAndPray_vc12_x86\GameView.obj
+         Debug_SprayAndPray_vc12_x86\GuiElement.obj
+         Debug_SprayAndPray_vc12_x86\GuiTexture.obj
+         Debug_SprayAndPray_vc12_x86\ImageManager.obj
+         Debug_SprayAndPray_vc12_x86\Input.obj
+         Debug_SprayAndPray_vc12_x86\Iw2DSceneGraph.obj
+         Debug_SprayAndPray_vc12_x86\Iw2DSceneGraphCore.obj
+         Debug_SprayAndPray_vc12_x86\IwResHandlerWAV.obj
+         Debug_SprayAndPray_vc12_x86\IwSoundADPCM.obj
+         Debug_SprayAndPray_vc12_x86\IwSoundData.obj
+         Debug_SprayAndPray_vc12_x86\IwSoundGroup.obj
+         Debug_SprayAndPray_vc12_x86\IwSoundInst.obj
+         Debug_SprayAndPray_vc12_x86\IwSoundManager.obj
+         Debug_SprayAndPray_vc12_x86\IwSoundPCM.obj
+         Debug_SprayAndPray_vc12_x86\IwSoundParams.obj
+         Debug_SprayAndPray_vc12_x86\IwSoundSpec.obj
+         Debug_SprayAndPray_vc12_x86\IwTween.obj
+         Debug_SprayAndPray_vc12_x86\Menu.obj
+         Debug_SprayAndPray_vc12_x86\PVRTexTool_interface.obj
+         Debug_SprayAndPray_vc12_x86\Player.obj
+         Debug_SprayAndPray_vc12_x86\SprayAndPray.obj
+         Debug_SprayAndPray_vc12_x86\Sprite.obj
+         Debug_SprayAndPray_vc12_x86\Trackpad.obj
+         Debug_SprayAndPray_vc12_x86\View.obj
+         Debug_SprayAndPray_vc12_x86\definitions.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+     1>AudioManager.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>LIBCMTD.lib(sscanf.obj) : warning LNK4006: _vsscanf already defined in s3e_d.lib(iwcrt_win32.obj); second definition ignored
+     1>LIBCMTD.lib(strtoq.obj) : warning LNK4006: _strtof already defined in s3e_d.lib(iwcrt_common.obj); second definition ignored
+            Creating library Debug_SprayAndPray_vc12_x86\SprayAndPray.lib and object Debug_SprayAndPray_vc12_x86\SprayAndPray.exp
+     1>Debug_SprayAndPray_vc12_x86\SprayAndPray.s86 : warning LNK4088: image being generated due to /FORCE option; image may not run
+         SprayAndPray_vc12.vcxproj -> D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_vc12_x86\SprayAndPray.s86
+       PostBuildEvent:
+         echo "C:\Program Files\Marmalade\7.4\s3e\python\python.exe" .\process_map.py "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_vc12_x86\SprayAndPray.s86"
+         chdir /d "c:\program files\marmalade\7.4\s3e\tools"
+         "C:\Program Files\Marmalade\7.4\s3e\python\python.exe" .\process_map.py "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_vc12_x86\SprayAndPray.s86"
+         echo "s3e_plink" -l "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_vc12_x86\SprayAndPray.s86" 
+         chdir /d "c:\program files\marmalade\7.4\s3e\bin"
+         "s3e_plink" -l "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_vc12_x86\SprayAndPray.s86" 
+         
+         :VCEnd
+         "C:\Program Files\Marmalade\7.4\s3e\python\python.exe" .\process_map.py "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_vc12_x86\SprayAndPray.s86"
+         "s3e_plink" -l "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\Debug_SprayAndPray_vc12_x86\SprayAndPray.s86" 
+     1>Done Building Project "D:\Git\Year2\fga2.gt2\SprayAndPray\build_sprayandpray_vc12\SprayAndPray_vc12.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.10
